@@ -1,0 +1,47 @@
+1.You will observe that a large portion of the terms in the dictionary are numbers. 
+  However, we normally do not use numbers as query terms to search. Do you think it is a 
+  good idea to remove these number entries from the dictionary and the postings lists? 
+  Can you propose methods to normalize these numbers? How many percentage of reduction in 
+  disk storage do you observe after removing/normalizing these numbers?
+
+  group of absulte numbers such as event dates and financial reporting are important entries 
+  with regards to a document. Other instances are of less importance. Hence, removing these number
+  entries without a trace from the dictionary and postings list is not beneficial. I would suggest however,
+  to normalize the numbers, perhaps by grouping ranges of numbers into a single postings list based on semantics.
+  
+  Without removing these numbers, the dictionary file produced is 1,345,383 bytes.
+  Removing them yields a dictionary file of 655,750 bytes, which is significantly smaller. This is expected due to the
+  infinite possible representation of numbers. Removing them would hence reduce the amount of the dictionary file.
+
+  As for the postings file, the ratio reduce in size to 10,076,160 to 7,168,000 is not that great as the posting list size for each number representation 
+  is small. 
+
+
+2.What do you think will happen if we remove stop words from the dictionary and postings file? 
+  How does it affect the searching phase?
+
+  stops words will greatly reduce the size of the postings file as opposed to the dictionary file.
+  The vocabulary size of stop words are small relative to the total vocabulary, 
+  where as the occurance of stop words in various documents are guaranteed to be of high probabiliy, 
+  which is reflective of the high document count. 
+
+  searching would be be faster as we deal with a smaller vocabulary size and a relatively smalled postings file.
+  queries can be better trimmed to obtain smarter results. as stop words which hold no meaning are excluded.
+
+
+3.The NLTK tokenizer may not correctly tokenize all terms. What do you observe from the resulting terms 
+  produced by sent_tokenize() and word_tokenize()? Can you propose rules to further refine these results?
+	
+  Sentences are seperated based on punctuations such as '?'  '!' and '.' 
+  Words ending with 's are converted seperate the 's from the word
+  beginning quotes(") placed on the begining of the word is not seperated from the word, whereas endquote 
+  are seperated from the word.
+  Hyphenated words are not seperated. 
+
+  to tokenize better, I suggest to seperate hyphenated words, which can lead to a better and more accurate
+  response of the query. As if stayed hyphenated, it would be considered as a seperate term. Searching words that might be
+  a contituent of hyphened words, would not include it the result.
+
+
+
+
