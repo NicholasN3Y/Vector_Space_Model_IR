@@ -5,6 +5,7 @@ import sys
 import math
 import getopt
 import os
+import string
 import time
 import cPickle as pickle
 from collections import defaultdict
@@ -17,34 +18,43 @@ def build_Index(directory) :
 	# for each document within the directory:
 	for docname in next(os.walk(directory))[2]:
 		docname_list.append(int(docname))
-		
+	index_dict['LIST_OF_DOC'] = dict()	
 	for docname in sorted(docname_list):
 		doc = open(os.path.join(directory, str(docname)), 'r')
 		data = doc.readlines()
 		doc.close()	
-		
-		data = " ".join(map(lambda a: a.strip(), data))
-					
+		data = " ".join(map(lambda a: a.strip(), data))			
 		#tokenize the document
 		sentence = nltk.sent_tokenize(data)
 		wordified_sent = map(nltk.word_tokenize, sentence)
 			
 		#create new Porter stemmer
 		stemmer = nltk.PorterStemmer()
-			
+		docSize = 0;	
 		for sent in wordified_sent:
 			for term in sent:
-				term = stemmer.stem(term.lower())
-				if (len(index_dict[term]) > 0):
-					if(index_dict[term][len(index_dict[term])-1][0] != docname):
-						index_dict[term].append((docname, ))
-				else:
-					index_dict[term.lower()].append((docname, ))
-					
+                                term = term.strip(string.punctuation)
+                                terms = term.split("/")
+                                for i in range(0, len(terms)):
+                                        term = terms[i]
+                                        term = stemmer.stem(term.lower())
+                                        #remove prepending and appending punctuations from stemmed words
+                                        if len(term) > 0 and term != "lt":
+                                                #it is already in the dictionary
+                                                postinglist = index_dict[term]
+                                                if (len(postinglist) > 0):
+                                                        if(postinglist[len(index_dict[term])-1][0] != docname):
+                                                                postinglist.append((docname,1))
+                                                        else:
+                                                                postinglist[len(postinglist)-1] = (docname, postinglist[len(postinglist)-1][1] + 1)  
+                                                #it is not in the dictionary
+                                                else:
+                                                        postinglist.append((docname,1))
+                                                docSize = docSize + 1
 		#add list of documents into dictionary
-		index_dict['LIST_OF_DOC'].append((docname, ))
+		(index_dict['LIST_OF_DOC'])[docname] = docSize
 	
-			
+	'''irrelevant skip pointers	
 	#add skip pointers
 	for term, postings in index_dict.items():
 		post_length = len(postings)
@@ -53,13 +63,10 @@ def build_Index(directory) :
 		#add skip pointer
 		for i in range (0, post_length, val):
 			if (i + val < post_length):
-				postings[i] = (postings[i][0], i+val)
+				postings[i] = (postings[i][0], postings[i][1], pi+val)
 			elif (i != post_length-1):
-				postings[i] = (postings[i][0], post_length - 1)
-		
-	
-	
-	
+				postings[i] = (postings[i][0], postings[i][1], post_length - 1)
+	'''	
 	return index_dict
 
 def pickle_Data(index_dict, dictionaryz, postingz):

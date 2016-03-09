@@ -3,6 +3,15 @@ contactable at a0112224@u.nus.edu
 
 == General Notes about this assignment ==
 
+
+
+
+
+
+
+punctuations that appear before or after a term are pruned. 
+terms that have '/' are split into two terms
+
 Place your comments or requests here for Min to read.  Discuss your
 architecture or experiments in general.  A paragraph or two is usually
 sufficient.
