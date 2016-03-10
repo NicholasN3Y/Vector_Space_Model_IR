@@ -24,10 +24,44 @@ def preprocess(line):
         return termified_query
 
 def evalQuery(querytermlist, dictionary, postingsfile, outputfile):
-        print repr(querytermlist)
+        #querytermlist is tokenized query terms
+        #convert it to a dictionary to enable query term count
+        #querytermdict: key is term, value is count in the query list
+        querytermdict = dict()
+        for i in range(0, len(querytermlist)):
+                querytermdict.setdefault(querytermlist[i], 0)
+                querytermdict[querytermlist[i]] += 1
+
+        #docsWithQuertTerms: { Doc: (dict of query terms : count)}
+        docsWithQueryTerms = getDocWithQueryTerms(querytermdict, dictionary, postingsfile)
+        #--------12.20pm Thursday
+        print repr(docsWithQueryTerms)
+
+        
+
+        
         
         return ["dummy"]
+
+def getDocWithQueryTerms(queryterms, dictionary, posting):
+        resultDict = dict()
+        for term in queryterms.keys():
+                info = dictionary.get(term, None)
+                if (info):
+                        assert(type(info) is tuple)
+                        termPostingList = getDataFromPostings(info[1], posting)
+                        #adds the data in termPostingList into resultDict
+                        categorizeQueryTermByDoc(term, termPostingList, resultDict)
+        return resultDict
+                
         
+def categorizeQueryTermByDoc(term, postings, dictionary):
+        for pair in postings:
+                document = pair[0]
+                termcount = pair[1]
+                dictionary.setdefault(document, dict())
+                dictionary[document][term] = termcount
+                
 
 def evaluateQueries(dictionary, posting_filename, queries_filename, output_filename):
 	outputfile = open(output_filename, 'w')
