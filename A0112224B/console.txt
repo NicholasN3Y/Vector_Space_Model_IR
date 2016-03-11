@@ -1,9 +1,2096 @@
 reading In Dictionary
 reading query
-{8194: {'money': 2}, 10246: {'money': 1}, 8199: {'money': 1}, 6156: {'money': 1}, 10255: {'money': 1}, 2064: {'money': 5}, 4113: {'money': 1}, 30: {'money': 2}, 4131: {'money': 1}, 12337: {'money': 1}, 8247: {'money': 2}, 58: {'money': 2}, 10321: {'money': 2}, 92: {'money': 2}, 10344: {'money': 2}, 2155: {'money': 1}, 109: {'money': 2}, 111: {'money': 2}, 10354: {'money': 2}, 10356: {'money': 2}, 12406: {'money': 2}, 4215: {'money': 1}, 12410: {'money': 1}, 12413: {'money': 2}, 12418: {'money': 2}, 12423: {'money': 1}, 12429: {'money': 1}, 2197: {'money': 2}, 8342: {'money': 1}, 12453: {'money': 2}, 10416: {'money': 2}, 2228: {'money': 4}, 8374: {'money': 1}, 198: {'money': 2}, 203: {'money': 2}, 12494: {'money': 2}, 6352: {'money': 4}, 211: {'money': 1}, 6357: {'money': 1}, 6359: {'money': 2}, 220: {'money': 2}, 221: {'money': 1}, 229: {'money': 1}, 10473: {'money': 1}, 12523: {'money': 2}, 247: {'money': 4}, 6399: {'money': 1}, 6400: {'money': 1}, 12554: {'money': 2}, 11193: {'money': 2}, 6426: {'money': 14}, 12576: {'money': 4}, 296: {'money': 2}, 10546: {'money': 2}, 307: {'money': 2}, 6452: {'money': 2}, 6453: {'money': 1}, 322: {'money': 1}, 9217: {'money': 2}, 330: {'money': 2}, 336: {'money': 2}, 6483: {'money': 2}, 341: {'money': 2}, 10592: {'money': 2}, 10594: {'money': 2}, 2403: {'money': 2}, 361: {'appl': 1}, 10606: {'money': 1}, 8569: {'money': 1}, 4477: {'money': 1}, 6531: {'money': 3}, 4487: {'money': 2}, 6543: {'money': 1}, 411: {'money': 4}, 8604: {'money': 1}, 416: {'money': 1}, 2465: {'money': 2}, 2468: {'money': 2}, 10661: {'money': 3}, 8621: {'money': 1}, 6578: {'money': 1}, 8629: {'money': 2}, 8636: {'money': 1}, 4544: {'money': 2}, 4548: {'money': 1}, 12741: {'money': 2}, 4513: {'money': 1}, 12745: {'money': 1}, 7927: {'money': 1}, 12748: {'money': 1}, 10704: {'money': 2}, 10708: {'money': 3}, 10710: {'money': 2}, 8664: {'money': 1}, 2521: {'money': 1}, 6619: {'money': 1}, 14757: {'money': 1}, 12027: {'money': 1}, 8677: {'money': 2}, 8678: {'money': 2}, 10737: {'money': 2}, 8692: {'appl': 1}, 12789: {'money': 2}, 10746: {'money': 3}, 8699: {'appl': 1}, 10748: {'money': 1}, 6658: {'money': 1}, 10755: {'money': 2}, 2565: {'money': 2}, 12812: {'money': 1}, 2576: {'money': 1}, 8723: {'money': 5}, 4630: {'money': 1}, 8728: {'money': 2}, 12840: {'money': 1}, 2601: {'money': 4}, 10796: {'money': 2}, 14770: {'money': 3}, 6708: {'money': 1}, 8760: {'money': 2}, 4666: {'money': 2}, 2626: {'money': 1}, 4682: {'money': 1}, 12875: {'money': 1}, 12891: {'money': 3}, 6758: {'money': 1}, 12732: {'money': 1}, 5223: {'money': 1}, 4720: {'money': 2}, 12923: {'money': 1}, 2686: {'money': 1}, 6791: {'money': 1}, 2697: {'money': 3}, 4768: {'money': 1}, 2725: {'money': 3}, 4783: {'money': 2}, 2743: {'money': 2}, 2744: {'money': 2}, 2746: {'money': 1}, 6844: {'money': 1}, 4809: {'money': 1}, 10959: {'money': 1}, 4816: {'money': 2}, 13010: {'money': 2}, 4822: {'money': 2}, 13019: {'money': 2}, 4188: {'money': 1}, 8943: {'money': 1}, 6914: {'money': 1}, 12758: {'money': 4}, 6941: {'money': 1}, 6944: {'money': 1}, 6970: {'money': 3}, 830: {'money': 2}, 4929: {'money': 2}, 6981: {'money': 2}, 839: {'money': 5}, 4938: {'money': 2}, 11083: {'money': 2}, 3554: {'money': 1}, 4944: {'money': 1}, 6998: {'money': 1}, 9700: {'money': 2}, 11103: {'money': 1}, 7014: {'money': 1}, 7020: {'money': 1}, 7024: {'money': 1}, 11123: {'money': 1}, 7029: {'money': 3}, 889: {'money': 1}, 7036: {'money': 1}, 894: {'money': 1}, 913: {'money': 2}, 9107: {'money': 2}, 9110: {'money': 1}, 926: {'money': 3}, 2554: {'money': 6}, 12785: {'money': 1}, 7080: {'money': 2}, 940: {'money': 1}, 942: {'money': 3}, 943: {'money': 2}, 7088: {'money': 1}, 2994: {'money': 3}, 2996: {'money': 1}, 3001: {'money': 2}, 3002: {'money': 5}, 955: {'money': 1}, 7100: {'money': 2}, 3007: {'money': 1}, 11200: {'money': 2}, 9164: {'money': 1}, 974: {'money': 1}, 9178: {'money': 3}, 11228: {'money': 1}, 4602: {'money': 4}, 11234: {'money': 8}, 3043: {'money': 1}, 3044: {'money': 1}, 999: {'money': 2}, 3049: {'money': 2}, 11244: {'money': 3}, 1008: {'money': 2}, 3060: {'money': 2}, 9206: {'money': 1}, 7159: {'money': 1}, 11256: {'money': 2}, 9727: {'money': 2}, 3068: {'money': 5}, 11261: {'money': 1}, 11263: {'money': 2}, 9216: {'money': 1}, 3073: {'money': 6}, 9218: {'money': 2}, 1032: {'money': 1}, 13321: {'money': 1}, 11284: {'money': 2}, 3103: {'money': 1}, 9261: {'money': 2}, 3122: {'money': 1}, 3137: {'money': 4}, 9299: {'money': 2}, 5207: {'money': 2}, 1112: {'money': 4}, 11365: {'money': 3}, 1553: {'money': 1}, 11794: {'money': 2}, 5232: {'money': 2}, 12819: {'money': 2}, 9336: {'money': 1}, 5241: {'money': 5}, 1154: {'money': 2}, 5251: {'money': 2}, 5253: {'money': 3}, 5255: {'money': 1}, 7310: {'money': 6}, 5264: {'money': 1}, 7313: {'money': 4}, 5269: {'money': 2}, 5277: {'money': 2}, 3246: {'money': 2}, 7027: {'money': 2}, 5318: {'money': 1}, 5323: {'money': 1}, 3283: {'money': 1}, 13530: {'money': 3}, 13531: {'money': 2}, 9436: {'money': 1}, 7391: {'money': 3}, 5344: {'money': 2}, 11492: {'money': 1}, 13543: {'money': 1}, 11498: {'money': 5}, 5360: {'money': 2}, 12841: {'money': 6}, 12501: {'money': 2}, 7425: {'money': 2}, 7428: {'money': 1}, 3336: {'money': 1}, 7437: {'money': 2}, 5394: {'money': 1}, 5412: {'money': 1}, 11487: {'money': 1}, 11587: {'money': 1}, 7499: {'money': 2}, 9784: {'money': 3}, 5472: {'money': 1}, 3433: {'money': 1}, 3435: {'money': 2}, 7538: {'money': 5}, 11776: {'money': 4}, 7555: {'money': 1}, 7558: {'money': 1}, 7562: {'money': 2}, 7571: {'money': 2}, 3482: {'money': 1}, 13552: {'money': 2}, 7587: {'money': 4}, 3493: {'money': 5}, 13739: {'money': 2}, 7599: {'money': 3}, 1457: {'money': 2}, 3514: {'money': 2}, 7614: {'money': 4}, 3524: {'money': 4}, 3533: {'money': 2}, 3534: {'money': 4}, 3535: {'money': 1}, 3542: {'money': 1}, 11746: {'money': 2}, 7652: {'money': 2}, 11753: {'money': 2}, 10757: {'money': 2}, 11765: {'money': 4}, 7674: {'money': 2}, 5717: {'money': 1}, 3584: {'money': 2}, 9730: {'money': 4}, 9733: {'money': 2}, 9735: {'money': 2}, 3593: {'money': 2}, 9745: {'money': 2}, 9746: {'money': 1}, 870: {'money': 1}, 11798: {'money': 2}, 9753: {'money': 1}, 3612: {'money': 2}, 7710: {'money': 8}, 11820: {'money': 3}, 9138: {'money': 1}, 9781: {'money': 2}, 11832: {'money': 2}, 7742: {'money': 1}, 9795: {'money': 2}, 3660: {'money': 1}, 3661: {'money': 4}, 5711: {'money': 1}, 11861: {'money': 1}, 7767: {'money': 5}, 11864: {'money': 1}, 9841: {'money': 4}, 9848: {'money': 1}, 13949: {'money': 15}, 9855: {'money': 3}, 9857: {'money': 2}, 7818: {'money': 2}, 1682: {'money': 1}, 5779: {'money': 1}, 5782: {'money': 2}, 9880: {'money': 3}, 5797: {'money': 2}, 5798: {'money': 2}, 5800: {'money': 1}, 3759: {'money': 1}, 3762: {'money': 3}, 5814: {'money': 2}, 5819: {'money': 2}, 1724: {'money': 1}, 3020: {'money': 2}, 5836: {'money': 1}, 3797: {'money': 1}, 5861: {'money': 2}, 4049: {'money': 1}, 5870: {'money': 1}, 9975: {'money': 6}, 7807: {'money': 2}, 5888: {'money': 1}, 7937: {'money': 2}, 5905: {'money': 2}, 5909: {'money': 2}, 5945: {'money': 2}, 12101: {'money': 1}, 10079: {'money': 2}, 5985: {'money': 1}, 1898: {'money': 2}, 5998: {'money': 1}, 1912: {'money': 3}, 14207: {'money': 4}, 8068: {'money': 1}, 1931: {'money': 1}, 1933: {'money': 4}, 6037: {'money': 2}, 1943: {'money': 2}, 1959: {'money': 1}, 1967: {'money': 9}, 8113: {'money': 1}, 1976: {'money': 3}, 1982: {'money': 2}, 10176: {'money': 2}, 10183: {'money': 2}, 8137: {'money': 1}, 6091: {'money': 4}, 3067: {'money': 1}, 953: {'money': 2}, 8147: {'money': 2}, 14297: {'money': 1}, 4067: {'money': 2}, 2022: {'money': 2}, 1361: {'appl': 3}, 8168: {'money': 2}, 10774: {'money': 3}, 8176: {'money': 1}, 8182: {'money': 2}, 4088: {'money': 2}, 4090: {'money': 1}, 4093: {'money': 3}}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 5}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 4}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 4}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 4}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 14}
+{'money': 4}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'appl': 1}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 3}
+{'money': 2}
+{'money': 1}
+{'money': 4}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 3}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 3}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'appl': 1}
+{'money': 2}
+{'money': 3}
+{'appl': 1}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 5}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 4}
+{'money': 2}
+{'money': 3}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 3}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 3}
+{'money': 1}
+{'money': 3}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 4}
+{'money': 1}
+{'money': 1}
+{'money': 3}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 5}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 3}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 3}
+{'money': 6}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 3}
+{'money': 2}
+{'money': 1}
+{'money': 3}
+{'money': 1}
+{'money': 2}
+{'money': 5}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 3}
+{'money': 1}
+{'money': 4}
+{'money': 8}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 3}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 5}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 6}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 4}
+{'money': 2}
+{'money': 2}
+{'money': 4}
+{'money': 3}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 5}
+{'money': 2}
+{'money': 2}
+{'money': 3}
+{'money': 1}
+{'money': 6}
+{'money': 1}
+{'money': 4}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 3}
+{'money': 2}
+{'money': 1}
+{'money': 3}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 5}
+{'money': 2}
+{'money': 6}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 3}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 5}
+{'money': 4}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 4}
+{'money': 5}
+{'money': 2}
+{'money': 3}
+{'money': 2}
+{'money': 2}
+{'money': 4}
+{'money': 4}
+{'money': 2}
+{'money': 4}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 4}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 4}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 8}
+{'money': 3}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 4}
+{'money': 1}
+{'money': 1}
+{'money': 5}
+{'money': 1}
+{'money': 4}
+{'money': 1}
+{'money': 15}
+{'money': 3}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 3}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 3}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 1}
+{'money': 6}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 1}
+{'money': 3}
+{'money': 4}
+{'money': 1}
+{'money': 1}
+{'money': 4}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 9}
+{'money': 1}
+{'money': 3}
+{'money': 2}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 4}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'appl': 3}
+{'money': 2}
+{'money': 3}
+{'money': 1}
+{'money': 2}
+{'money': 2}
+{'money': 1}
+{'money': 3}
 reading query
-{2048: {'januari': 1}, 1: {'januari': 1, 'juli': 5, 'june': 3}, 4098: {'june': 1}, 10243: {'januari': 1}, 4100: {'januari': 1, 'juli': 1}, 5: {'januari': 1, 'juli': 1}, 2054: {'januari': 1}, 8200: {'januari': 1}, 6042: {'januari': 1}, 6158: {'januari': 1}, 12304: {'june': 1}, 4114: {'januari': 2}, 4115: {'januari': 7}, 8212: {'januari': 2}, 10261: {'januari': 2}, 10262: {'januari': 1}, 5729: {'june': 1}, 10264: {'juli': 2}, 10265: {'june': 1}, 29: {'januari': 3}, 6175: {'januari': 1}, 8225: {'januari': 1}, 4132: {'januari': 1}, 3078: {'june': 1}, 11953: {'januari': 1}, 10280: {'june': 1}, 4138: {'juli': 1, 'june': 1}, 10283: {'januari': 2}, 6189: {'januari': 2}, 46: {'januari': 1}, 48: {'januari': 2}, 12337: {'june': 3}, 2099: {'juli': 1}, 10292: {'juli': 1}, 6197: {'januari': 3}, 10295: {'januari': 2}, 56: {'januari': 1, 'june': 1}, 10297: {'januari': 13}, 4156: {'june': 2}, 10163: {'june': 1}, 2110: {'januari': 6}, 4160: {'januari': 1, 'juli': 1}, 4161: {'januari': 1}, 10306: {'juli': 1}, 13462: {'juli': 2, 'june': 1}, 4165: {'januari': 1}, 6215: {'june': 1}, 12361: {'juli': 1, 'june': 3}, 74: {'januari': 1}, 4173: {'januari': 1}, 3344: {'june': 2}, 2128: {'januari': 1}, 4792: {'juli': 1}, 10322: {'januari': 1}, 8276: {'januari': 1}, 12378: {'januari': 1}, 14427: {'june': 1}, 7184: {'januari': 1}, 100: {'januari': 3}, 2149: {'januari': 1}, 10344: {'januari': 1}, 105: {'januari': 1}, 10352: {'june': 1}, 8306: {'juli': 1, 'june': 1}, 6259: {'januari': 1}, 12407: {'januari': 11}, 121: {'januari': 1}, 8314: {'januari': 1}, 7871: {'januari': 1}, 8866: {'june': 1}, 4223: {'januari': 1}, 8320: {'juli': 1, 'june': 1}, 11968: {'june': 1}, 8322: {'januari': 1, 'june': 1}, 10372: {'januari': 2}, 4229: {'januari': 1}, 2182: {'januari': 1}, 12423: {'juli': 1}, 10376: {'januari': 11}, 10377: {'januari': 2}, 12416: {'juli': 2, 'june': 1}, 12428: {'juli': 1}, 4238: {'januari': 3}, 6287: {'june': 1}, 10384: {'januari': 2}, 10385: {'januari': 12}, 2194: {'june': 1}, 12435: {'januari': 1}, 2196: {'januari': 1}, 2197: {'januari': 1}, 12962: {'june': 1}, 4233: {'june': 2}, 2203: {'januari': 2}, 10398: {'juli': 1}, 4255: {'januari': 2}, 160: {'januari': 1}, 4259: {'juli': 1}, 12818: {'june': 1}, 6310: {'januari': 1}, 6311: {'januari': 1}, 168: {'januari': 1}, 4267: {'june': 2}, 12460: {'juli': 1}, 2221: {'june': 1}, 12462: {'juli': 1, 'june': 1}, 12464: {'januari': 1}, 12465: {'juli': 1, 'june': 1}, 12466: {'januari': 10}, 371: {'januari': 1}, 8373: {'june': 1}, 9588: {'june': 1}, 4289: {'januari': 1}, 4290: {'januari': 13}, 1398: {'januari': 1}, 7148: {'june': 1}, 4297: {'januari': 1, 'june': 1}, 202: {'juli': 1}, 2251: {'januari': 1}, 2252: {'januari': 1}, 6349: {'januari': 1}, 13005: {'june': 1}, 8400: {'januari': 1}, 209: {'januari': 1}, 4306: {'januari': 1}, 14547: {'juli': 1}, 213: {'januari': 5}, 14550: {'june': 1}, 8569: {'januari': 1, 'juli': 1, 'june': 1}, 2264: {'juli': 1}, 12822: {'juli': 1}, 8416: {'januari': 1, 'june': 1}, 225: {'januari': 1}, 6371: {'januari': 3}, 228: {'januari': 1}, 10470: {'june': 1}, 6376: {'januari': 1}, 12525: {'januari': 1}, 8430: {'juli': 1}, 11645: {'june': 1}, 12490: {'june': 1}, 6386: {'juli': 3}, 8435: {'januari': 1}, 4341: {'januari': 1}, 8440: {'januari': 1}, 4347: {'januari': 1}, 10282: {'june': 1}, 256: {'januari': 2}, 8451: {'januari': 2}, 4714: {'june': 1}, 2310: {'januari': 1, 'juli': 2}, 11649: {'june': 1}, 10505: {'januari': 1}, 4363: {'januari': 1}, 4366: {'januari': 5}, 271: {'januari': 1}, 273: {'januari': 4}, 12562: {'januari': 1}, 6419: {'januari': 1}, 4372: {'januari': 1}, 4374: {'januari': 2, 'june': 1}, 279: {'januari': 1}, 10520: {'januari': 1}, 6426: {'januari': 1}, 283: {'januari': 2}, 284: {'januari': 2}, 6432: {'juli': 1}, 10531: {'januari': 2}, 12580: {'june': 1}, 293: {'januari': 1}, 6438: {'june': 1}, 7217: {'june': 1}, 10537: {'januari': 2, 'juli': 1, 'june': 1}, 299: {'june': 1}, 10542: {'june': 1}, 4829: {'januari': 1}, 10544: {'june': 1}, 2354: {'januari': 1}, 6453: {'januari': 1}, 6454: {'june': 1}, 311: {'januari': 1}, 312: {'januari': 2}, 10553: {'januari': 3}, 12763: {'juli': 1}, 6464: {'januari': 4}, 7904: {'june': 1}, 8516: {'januari': 1}, 10565: {'june': 1}, 6471: {'januari': 1}, 9612: {'june': 1}, 330: {'januari': 6}, 334: {'june': 1}, 4152: {'januari': 19}, 4436: {'januari': 2}, 2390: {'june': 1}, 13173: {'june': 1}, 4440: {'juli': 1, 'june': 1}, 13105: {'juli': 1}, 13787: {'june': 1}, 10593: {'june': 1}, 4452: {'june': 1}, 8553: {'januari': 1}, 2411: {'june': 1}, 10604: {'januari': 3}, 8561: {'januari': 1}, 4467: {'januari': 1}, 8565: {'juli': 1}, 4470: {'juli': 2}, 6521: {'januari': 1}, 10618: {'januari': 1}, 11327: {'june': 1}, 381: {'june': 1}, 4478: {'june': 1}, 14722: {'june': 1}, 6531: {'june': 1}, 14402: {'june': 2}, 389: {'june': 1}, 6209: {'januari': 1}, 8585: {'juli': 1}, 6538: {'june': 1}, 395: {'juli': 2, 'june': 1}, 6541: {'june': 1}, 6546: {'januari': 2}, 2452: {'januari': 1}, 8597: {'june': 1}, 2456: {'june': 1}, 2462: {'januari': 1}, 7545: {'june': 1}, 12971: {'juli': 2, 'june': 1}, 422: {'januari': 1}, 11880: {'juli': 1}, 8619: {'juli': 1}, 14767: {'june': 8}, 6576: {'januari': 1, 'juli': 1}, 10674: {'januari': 1}, 435: {'januari': 1}, 10678: {'januari': 1}, 2121: {'june': 2}, 8632: {'januari': 1}, 8198: {'june': 1}, 8635: {'januari': 1}, 444: {'januari': 3}, 6590: {'januari': 1}, 10687: {'june': 1}, 2496: {'januari': 1}, 7584: {'januari': 3}, 450: {'januari': 2}, 2500: {'juli': 1}, 12743: {'januari': 2}, 4552: {'januari': 1}, 7244: {'juli': 1}, 12746: {'june': 1}, 9975: {'juli': 2, 'june': 1}, 10701: {'juli': 2}, 8654: {'januari': 1}, 2511: {'januari': 1}, 12752: {'januari': 2}, 10705: {'juli': 2, 'june': 4}, 10709: {'june': 1}, 2520: {'juli': 1}, 2522: {'januari': 5}, 6619: {'januari': 7}, 2881: {'june': 1}, 8671: {'januari': 5}, 10720: {'januari': 1, 'juli': 1}, 2529: {'januari': 1}, 2530: {'januari': 2}, 10724: {'januari': 2}, 6629: {'june': 2}, 2535: {'juli': 1}, 4585: {'januari': 1}, 2538: {'juli': 1}, 8683: {'januari': 2}, 8684: {'juli': 1, 'june': 1}, 12783: {'june': 1}, 10737: {'januari': 11}, 498: {'januari': 1}, 12787: {'januari': 13}, 7934: {'juli': 1, 'june': 1}, 8694: {'januari': 4}, 10324: {'januari': 2}, 2554: {'januari': 1}, 2555: {'januari': 1}, 10748: {'june': 1}, 6653: {'juli': 1}, 3222: {'januari': 1}, 6656: {'juli': 1}, 8706: {'januari': 9}, 10756: {'januari': 8}, 4613: {'januari': 1}, 518: {'januari': 1}, 7937: {'june': 1}, 10760: {'januari': 3, 'june': 1}, 8714: {'januari': 1}, 10519: {'juli': 1, 'june': 5}, 8716: {'januari': 1}, 12813: {'januari': 3}, 12814: {'januari': 4}, 12815: {'januari': 1}, 6674: {'januari': 1}, 8723: {'januari': 1}, 2580: {'june': 1}, 4630: {'januari': 2}, 4634: {'januari': 3}, 12827: {'juli': 1}, 6684: {'june': 2}, 4637: {'januari': 3}, 4638: {'januari': 1}, 4641: {'januari': 1}, 4644: {'januari': 2}, 13062: {'januari': 1}, 8746: {'januari': 5}, 6699: {'januari': 1}, 8748: {'june': 1}, 14770: {'januari': 1}, 6156: {'june': 3}, 2609: {'januari': 1}, 8755: {'januari': 1}, 4660: {'januari': 2}, 6709: {'june': 1}, 4664: {'june': 1}, 2618: {'januari': 11}, 7263: {'juli': 1}, 8768: {'june': 1}, 6721: {'januari': 1}, 6400: {'june': 2}, 6723: {'januari': 1}, 6225: {'juli': 1}, 10825: {'januari': 2}, 10826: {'juli': 3}, 10827: {'januari': 4}, 6733: {'juli': 1, 'june': 1}, 10830: {'june': 1}, 8784: {'june': 1}, 4689: {'june': 1}, 4690: {'januari': 1}, 4691: {'januari': 1}, 2645: {'januari': 1}, 2647: {'juli': 1}, 8292: {'june': 1}, 4698: {'januari': 2}, 4700: {'januari': 2}, 10845: {'januari': 1}, 10341: {'januari': 5}, 8800: {'januari': 2}, 12731: {'januari': 1}, 6757: {'juli': 1}, 1657: {'june': 1}, 6762: {'januari': 1}, 11341: {'juli': 1}, 14440: {'januari': 1, 'june': 1}, 6771: {'juli': 1}, 10873: {'januari': 1}, 6779: {'juli': 1}, 4732: {'januari': 1}, 8829: {'januari': 3}, 4735: {'januari': 1}, 6592: {'juli': 1}, 12501: {'januari': 1}, 6787: {'juli': 1}, 4741: {'januari': 4}, 4744: {'januari': 15}, 2697: {'januari': 2}, 12055: {'june': 1}, 8846: {'june': 2}, 8853: {'june': 1}, 10905: {'januari': 1}, 9327: {'januari': 1}, 12956: {'june': 1}, 2718: {'june': 2}, 8863: {'june': 1}, 4769: {'januari': 1, 'juli': 1}, 2722: {'januari': 1}, 4771: {'januari': 10}, 5951: {'januari': 1}, 4781: {'januari': 1}, 4785: {'januari': 1}, 4787: {'januari': 2}, 8884: {'januari': 1}, 2505: {'june': 1}, 6840: {'januari': 1}, 9332: {'june': 1}, 11039: {'juli': 1}, 4796: {'januari': 1}, 11040: {'januari': 1}, 706: {'januari': 1}, 7627: {'juli': 1}, 708: {'januari': 5}, 4806: {'june': 1}, 2763: {'june': 1}, 10956: {'juli': 1}, 2765: {'januari': 3}, 2767: {'januari': 1}, 9336: {'june': 1}, 11208: {'juli': 1}, 6869: {'juli': 1, 'june': 1}, 2777: {'juli': 1}, 6876: {'januari': 1}, 733: {'januari': 1}, 8933: {'januari': 2, 'juli': 1, 'june': 2}, 743: {'juli': 2}, 6094: {'june': 1}, 2793: {'januari': 3}, 13095: {'januari': 1}, 6893: {'januari': 1}, 8951: {'juli': 1, 'june': 1}, 6905: {'januari': 2}, 10367: {'juli': 1, 'june': 1}, 13053: {'januari': 4}, 14551: {'juli': 1}, 8961: {'januari': 1}, 8962: {'januari': 1}, 774: {'januari': 1}, 11015: {'june': 1}, 6920: {'januari': 1}, 2827: {'januari': 1}, 8974: {'januari': 1}, 8976: {'januari': 1}, 4881: {'januari': 2}, 13256: {'januari': 4}, 13080: {'januari': 2}, 793: {'januari': 7}, 6914: {'juli': 2}, 13168: {'june': 1}, 4893: {'januari': 1}, 6277: {'januari': 1}, 800: {'januari': 1}, 13089: {'june': 1}, 4898: {'januari': 5}, 8667: {'januari': 1}, 4900: {'june': 1}, 6951: {'januari': 2}, 13097: {'june': 1}, 9165: {'januari': 2}, 6955: {'januari': 4}, 1842: {'januari': 1}, 2862: {'januari': 1}, 2482: {'june': 1}, 816: {'januari': 6}, 11400: {'januari': 1}, 820: {'june': 1}, 6965: {'januari': 5}, 9014: {'juli': 1, 'june': 1}, 9015: {'juli': 1}, 6968: {'june': 1}, 6165: {'june': 1}, 830: {'januari': 2}, 6975: {'januari': 3}, 8211: {'januari': 2}, 480: {'june': 2}, 13123: {'juli': 1}, 836: {'juli': 2}, 6982: {'januari': 1}, 839: {'januari': 11}, 9166: {'januari': 1}, 7308: {'juli': 1}, 843: {'januari': 2}, 6626: {'june': 1}, 11087: {'januari': 1}, 4944: {'januari': 7, 'juli': 1}, 849: {'januari': 1}, 6995: {'januari': 3}, 857: {'januari': 1}, 5803: {'juli': 2}, 7006: {'januari': 2}, 9056: {'june': 1}, 144: {'june': 2}, 867: {'januari': 6, 'juli': 1}, 7012: {'januari': 2}, 7013: {'januari': 4}, 7014: {'januari': 12}, 7015: {'januari': 6}, 874: {'june': 1}, 2924: {'juli': 1}, 2925: {'june': 4}, 9072: {'june': 1}, 11121: {'june': 1}, 9074: {'june': 1}, 883: {'juli': 1}, 9022: {'januari': 1}, 13174: {'june': 1}, 887: {'juli': 1}, 2936: {'juli': 2}, 889: {'januari': 3}, 890: {'januari': 3}, 4987: {'januari': 6}, 7036: {'januari': 2}, 12778: {'june': 1}, 894: {'juli': 1}, 13184: {'juli': 1}, 4993: {'januari': 2}, 5270: {'januari': 2}, 7047: {'januari': 1}, 5001: {'januari': 1}, 10805: {'june': 4}, 2958: {'januari': 1}, 9107: {'januari': 2}, 2964: {'june': 1}, 2965: {'januari': 1}, 11159: {'januari': 2}, 11160: {'januari': 6, 'juli': 1}, 921: {'juli': 1}, 922: {'juli': 2, 'june': 1}, 924: {'januari': 3}, 2973: {'januari': 2}, 10260: {'januari': 2}, 7071: {'januari': 1}, 929: {'januari': 4}, 2978: {'januari': 3, 'june': 1}, 7075: {'juli': 1}, 9124: {'june': 1}, 11173: {'januari': 1}, 11174: {'juli': 1}, 8689: {'june': 2}, 937: {'januari': 4}, 5034: {'januari': 1}, 1395: {'june': 1}, 940: {'januari': 5}, 5037: {'januari': 5}, 9135: {'januari': 3}, 7088: {'januari': 2}, 11185: {'januari': 3}, 2995: {'januari': 3}, 12443: {'june': 1}, 9374: {'june': 1}, 11190: {'januari': 4}, 3002: {'januari': 1}, 955: {'januari': 2}, 5052: {'januari': 2}, 11197: {'januari': 1}, 7103: {'juli': 1, 'june': 1}, 5057: {'januari': 2}, 3010: {'juli': 1}, 9155: {'juli': 1}, 5061: {'januari': 10}, 9158: {'june': 1}, 5281: {'june': 1}, 3016: {'januari': 5}, 969: {'januari': 1}, 971: {'januari': 1}, 3020: {'januari': 3}, 7117: {'januari': 2}, 5070: {'januari': 3}, 3023: {'januari': 1, 'june': 1}, 13266: {'januari': 4}, 9171: {'januari': 4}, 10330: {'juli': 1, 'june': 1}, 13269: {'june': 1}, 13271: {'june': 1}, 7129: {'januari': 4}, 9178: {'januari': 5}, 10746: {'januari': 8}, 11230: {'januari': 1}, 7135: {'januari': 2}, 9184: {'june': 1}, 5092: {'januari': 2}, 374: {'june': 1}, 3048: {'januari': 2}, 11243: {'juli': 1}, 5100: {'januari': 1}, 13294: {'januari': 1}, 9201: {'januari': 1}, 14491: {'juli': 2, 'june': 1}, 4606: {'januari': 1}, 3062: {'januari': 2, 'june': 2}, 11255: {'januari': 1}, 1016: {'januari': 1}, 5114: {'januari': 1}, 3068: {'januari': 2, 'june': 1}, 11261: {'januari': 5}, 1023: {'januari': 3, 'juli': 1}, 3073: {'januari': 4}, 1026: {'januari': 1}, 5123: {'june': 1}, 5125: {'june': 1}, 9222: {'januari': 1}, 5127: {'januari': 2}, 11272: {'januari': 2}, 7177: {'januari': 2}, 1036: {'januari': 10}, 10754: {'januari': 6}, 1040: {'januari': 2}, 3091: {'januari': 2}, 6357: {'januari': 1, 'juli': 1, 'june': 2}, 5146: {'januari': 1}, 7196: {'januari': 1}, 10757: {'januari': 6}, 11083: {'june': 2}, 1067: {'januari': 4, 'juli': 1}, 5166: {'june': 2}, 5167: {'june': 1}, 7216: {'januari': 1}, 9265: {'januari': 2}, 11443: {'juli': 1}, 11316: {'juli': 1}, 7221: {'januari': 1}, 8151: {'june': 1}, 5178: {'januari': 4}, 9077: {'januari': 1}, 377: {'june': 1}, 7235: {'juli': 1, 'june': 1}, 5189: {'januari': 3}, 5190: {'januari': 2}, 5196: {'januari': 6}, 3149: {'juli': 1}, 11343: {'june': 1}, 1105: {'januari': 1}, 5203: {'june': 1}, 5205: {'januari': 4}, 1110: {'januari': 1}, 11352: {'juli': 1}, 11356: {'januari': 1}, 3166: {'juli': 1}, 5215: {'januari': 2}, 5216: {'januari': 2}, 5218: {'januari': 4}, 4099: {'june': 2}, 11370: {'januari': 1}, 10373: {'januari': 1}, 7277: {'june': 1}, 1134: {'januari': 1}, 5231: {'januari': 1}, 5234: {'januari': 2, 'juli': 1}, 11379: {'januari': 2}, 5236: {'januari': 3}, 11381: {'januari': 1}, 5238: {'januari': 1}, 5240: {'januari': 3}, 5241: {'januari': 1}, 1147: {'januari': 1}, 5245: {'januari': 3}, 1152: {'januari': 2}, 1154: {'januari': 1}, 5251: {'januari': 2}, 5253: {'januari': 6}, 3207: {'januari': 3}, 5256: {'januari': 3}, 5258: {'januari': 2}, 3211: {'januari': 3}, 5260: {'januari': 6}, 11406: {'june': 1}, 10609: {'june': 1}, 7313: {'januari': 1}, 7315: {'januari': 1}, 3585: {'june': 1}, 1174: {'januari': 2}, 11415: {'june': 1}, 5273: {'june': 1}, 9371: {'juli': 2}, 5278: {'june': 1}, 13471: {'januari': 1}, 1184: {'januari': 6}, 1185: {'juli': 1, 'june': 1}, 11428: {'june': 2}, 7366: {'januari': 2}, 1192: {'januari': 1}, 1193: {'januari': 1}, 7367: {'juli': 4}, 3613: {'januari': 1}, 5296: {'januari': 1}, 11123: {'juli': 1}, 5662: {'june': 1}, 9398: {'juli': 1}, 14537: {'june': 1}, 11451: {'juli': 1, 'june': 3}, 3261: {'juli': 1}, 1215: {'januari': 2, 'juli': 1}, 3266: {'juli': 1}, 5318: {'januari': 2}, 6689: {'juli': 1}, 11466: {'juli': 1}, 3278: {'januari': 1, 'june': 1}, 9861: {'june': 1}, 2163: {'june': 1}, 3961: {'januari': 1}, 9433: {'januari': 4}, 5338: {'januari': 2}, 1244: {'june': 2}, 13179: {'june': 2}, 5351: {'juli': 1}, 1257: {'januari': 1, 'juli': 2, 'june': 1}, 1575: {'june': 1}, 6354: {'januari': 2}, 3310: {'june': 1}, 7410: {'januari': 1}, 2942: {'juli': 1}, 3318: {'januari': 2}, 11817: {'januari': 1}, 9465: {'juli': 1}, 5371: {'januari': 6, 'juli': 2}, 5375: {'januari': 2}, 3330: {'januari': 3}, 8908: {'june': 1}, 5382: {'januari': 2}, 11137: {'januari': 11}, 10455: {'januari': 1}, 3340: {'juli': 1}, 5389: {'januari': 4}, 8796: {'june': 1}, 5392: {'januari': 1}, 9454: {'june': 1}, 6658: {'juli': 1}, 1300: {'januari': 1, 'june': 1}, 3353: {'januari': 7}, 11546: {'januari': 1}, 13189: {'januari': 1}, 3360: {'januari': 3}, 5410: {'juli': 1}, 5412: {'june': 1}, 12802: {'june': 2}, 5416: {'januari': 1}, 903: {'june': 1}, 5423: {'januari': 1}, 9521: {'januari': 1}, 3378: {'januari': 1}, 1332: {'januari': 1, 'june': 1}, 7049: {'januari': 3}, 1588: {'januari': 1}, 8415: {'june': 1}, 3390: {'juli': 1}, 11706: {'juli': 1}, 5440: {'june': 1}, 13633: {'januari': 1}, 9538: {'june': 1}, 5443: {'juli': 2}, 1350: {'januari': 4, 'juli': 3, 'june': 2}, 9543: {'januari': 1}, 11149: {'june': 2}, 9488: {'januari': 1}, 227: {'june': 1}, 10752: {'june': 1}, 1367: {'june': 1}, 309: {'june': 1}, 3419: {'januari': 2}, 3421: {'januari': 9}, 8080: {'june': 1}, 11639: {'june': 3}, 7531: {'januari': 2}, 5485: {'januari': 12}, 11632: {'januari': 1}, 10472: {'januari': 1}, 5491: {'juli': 4}, 4939: {'june': 1}, 3446: {'januari': 1}, 7543: {'januari': 9}, 7544: {'januari': 1}, 12836: {'januari': 1}, 5498: {'januari': 2}, 3453: {'juli': 1}, 3454: {'juli': 1}, 5505: {'januari': 1}, 3458: {'june': 1}, 7555: {'januari': 1}, 5508: {'januari': 5}, 7558: {'januari': 1}, 14603: {'june': 1}, 9117: {'juli': 1, 'june': 1}, 3468: {'januari': 1}, 9615: {'januari': 2}, 3472: {'januari': 1}, 5523: {'januari': 2}, 13717: {'juli': 1}, 5526: {'januari': 1}, 7577: {'januari': 2}, 7579: {'june': 1}, 1946: {'januari': 1}, 3488: {'januari': 1}, 7585: {'januari': 1}, 3493: {'june': 1}, 7591: {'januari': 1}, 9641: {'januari': 1}, 13738: {'januari': 1, 'juli': 2, 'june': 2}, 925: {'juli': 1}, 7600: {'juli': 1, 'june': 1}, 5554: {'januari': 1}, 11166: {'june': 2}, 7606: {'januari': 6}, 3512: {'januari': 1, 'juli': 1}, 1466: {'januari': 1}, 5563: {'januari': 1}, 5564: {'januari': 1}, 3520: {'januari': 1}, 9667: {'januari': 1, 'june': 1}, 3524: {'januari': 1}, 11717: {'januari': 1}, 7623: {'januari': 5}, 13559: {'januari': 5, 'june': 1}, 11170: {'januari': 1}, 3535: {'june': 5}, 1488: {'januari': 1}, 4988: {'june': 1}, 11734: {'june': 1}, 7643: {'januari': 1}, 1502: {'januari': 1}, 7647: {'januari': 1}, 13904: {'june': 1}, 11746: {'june': 1}, 3187: {'june': 1}, 9700: {'januari': 11}, 8102: {'june': 1}, 4551: {'june': 2}, 13212: {'januari': 1}, 11175: {'june': 1}, 7662: {'januari': 1}, 12883: {'june': 1}, 11765: {'januari': 5}, 11177: {'juli': 1}, 7674: {'januari': 4}, 11773: {'januari': 1}, 3582: {'june': 1}, 11776: {'januari': 1}, 9729: {'januari': 2}, 9730: {'januari': 1}, 3596: {'januari': 1}, 5378: {'januari': 2}, 1550: {'januari': 1}, 938: {'juli': 1}, 3603: {'juli': 3, 'june': 3}, 1556: {'januari': 3}, 9749: {'januari': 12}, 9751: {'june': 1}, 1560: {'januari': 2}, 5661: {'januari': 1}, 1566: {'januari': 1}, 9760: {'januari': 1}, 12208: {'januari': 1, 'june': 2}, 7715: {'june': 1}, 9764: {'june': 1}, 6406: {'june': 3}, 11815: {'juli': 1}, 2652: {'januari': 1}, 9770: {'januari': 7}, 13869: {'januari': 1}, 9821: {'januari': 7}, 6067: {'januari': 1}, 5684: {'januari': 2}, 13877: {'june': 1}, 3639: {'januari': 6}, 9784: {'januari': 4}, 5692: {'januari': 2}, 3649: {'januari': 1}, 11843: {'januari': 1}, 11847: {'januari': 1}, 11848: {'januari': 1}, 7755: {'june': 1}, 3661: {'januari': 1}, 5712: {'januari': 1}, 9812: {'januari': 2}, 147: {'june': 1}, 7767: {'januari': 6}, 1626: {'januari': 1}, 5725: {'januari': 1}, 9822: {'januari': 1}, 5727: {'januari': 1}, 3681: {'januari': 2}, 327: {'juli': 2, 'june': 1}, 7099: {'januari': 12}, 9829: {'januari': 1}, 1640: {'januari': 2, 'juli': 1}, 13244: {'januari': 2, 'june': 1}, 9836: {'januari': 5}, 6312: {'june': 1}, 13245: {'januari': 1}, 9841: {'januari': 1, 'june': 1}, 1652: {'januari': 1}, 9833: {'juli': 1, 'june': 1}, 9848: {'januari': 4}, 14612: {'januari': 7}, 7802: {'juli': 1}, 7011: {'june': 1}, 3708: {'januari': 6}, 13949: {'januari': 2}, 3717: {'januari': 2}, 9671: {'june': 1}, 5767: {'januari': 3}, 3720: {'januari': 5}, 5769: {'januari': 4}, 11914: {'juli': 2}, 3723: {'januari': 6}, 10285: {'januari': 7}, 1681: {'januari': 2}, 1682: {'januari': 1}, 5779: {'januari': 3}, 11925: {'juli': 1}, 5782: {'januari': 4}, 5783: {'juli': 1}, 5786: {'juli': 1}, 1692: {'juli': 1}, 3742: {'januari': 2}, 11205: {'januari': 1}, 1696: {'januari': 2}, 7842: {'januari': 3}, 9891: {'juli': 1, 'june': 1}, 5798: {'januari': 3}, 5800: {'januari': 1}, 9897: {'june': 1}, 3755: {'januari': 1}, 5805: {'juli': 3}, 3758: {'januari': 1}, 5807: {'januari': 1}, 968: {'januari': 1}, 5811: {'januari': 2}, 3765: {'june': 1}, 5815: {'januari': 1}, 11961: {'januari': 1}, 5818: {'januari': 1}, 7870: {'januari': 1}, 3775: {'januari': 1}, 8563: {'june': 1}, 1312: {'june': 1}, 11211: {'juli': 1}, 5830: {'januari': 8}, 9927: {'june': 1}, 7883: {'januari': 1}, 5838: {'januari': 2}, 5839: {'januari': 5}, 5752: {'juli': 1}, 5842: {'januari': 5}, 3796: {'januari': 1}, 974: {'januari': 7, 'juli': 1}, 2681: {'juli': 1}, 5848: {'januari': 7}, 13263: {'juli': 1, 'june': 1}, 3807: {'june': 1}, 3808: {'june': 1}, 12003: {'june': 1}, 9959: {'june': 2}, 3817: {'june': 1}, 5868: {'juli': 1}, 1773: {'januari': 2}, 5870: {'januari': 1}, 5879: {'januari': 1}, 9981: {'januari': 1}, 5886: {'januari': 4}, 3841: {'januari': 1}, 12403: {'januari': 2}, 12036: {'june': 1}, 5895: {'juli': 1}, 5896: {'januari': 1, 'june': 2}, 1803: {'juli': 1}, 12046: {'juli': 1}, 7954: {'juli': 1}, 12052: {'januari': 1}, 7959: {'june': 1}, 1816: {'januari': 2}, 14109: {'januari': 10}, 5765: {'januari': 8, 'june': 1}, 12064: {'june': 2}, 4016: {'june': 1}, 7975: {'januari': 1}, 3881: {'juli': 1}, 14642: {'june': 1}, 14126: {'june': 4}, 1839: {'juli': 1}, 12080: {'januari': 2}, 5768: {'januari': 2}, 3890: {'januari': 1}, 12084: {'januari': 2}, 12937: {'januari': 1}, 3898: {'januari': 1}, 1853: {'januari': 1}, 3903: {'januari': 1}, 14146: {'june': 1}, 1675: {'juli': 1}, 11575: {'januari': 1}, 5964: {'juli': 1}, 8624: {'januari': 6}, 8015: {'juli': 1}, 6456: {'juli': 2}, 12114: {'june': 1}, 5973: {'januari': 1, 'juli': 3}, 1878: {'januari': 1}, 12119: {'june': 1}, 14168: {'june': 1}, 10074: {'june': 2}, 10076: {'june': 1}, 1885: {'januari': 2}, 1890: {'januari': 7}, 13702: {'januari': 1}, 5991: {'june': 1}, 3944: {'june': 2}, 8041: {'januari': 1}, 7323: {'june': 1}, 1902: {'june': 1}, 3132: {'juli': 1}, 6000: {'januari': 1}, 1907: {'januari': 1}, 13157: {'januari': 2}, 1912: {'januari': 3}, 1913: {'januari': 1}, 10106: {'januari': 1}, 10107: {'juli': 1}, 1918: {'june': 1}, 8063: {'januari': 3}, 8068: {'juli': 1, 'june': 1}, 1926: {'januari': 1}, 10120: {'june': 1}, 1929: {'januari': 2}, 14220: {'june': 1}, 1933: {'januari': 4}, 1360: {'juli': 1}, 10130: {'june': 1}, 1940: {'januari': 1}, 10222: {'june': 1}, 3994: {'januari': 1}, 3995: {'januari': 1}, 3996: {'januari': 1}, 8098: {'januari': 4}, 9875: {'june': 1}, 4005: {'june': 5}, 6054: {'juli': 1}, 10567: {'januari': 2}, 1965: {'januari': 4}, 1967: {'januari': 2}, 8112: {'januari': 3}, 1970: {'januari': 4}, 4019: {'januari': 1}, 1634: {'june': 1}, 10168: {'januari': 1}, 8180: {'januari': 2}, 4027: {'januari': 1}, 12224: {'januari': 2}, 6083: {'januari': 1}, 4036: {'januari': 3}, 7158: {'januari': 1}, 8137: {'januari': 1}, 8138: {'januari': 6}, 8140: {'januari': 5}, 6818: {'june': 1}, 10190: {'januari': 1}, 4048: {'januari': 1}, 2003: {'januari': 1}, 2382: {'june': 1}, 6103: {'januari': 1}, 2008: {'june': 1}, 12249: {'juli': 1, 'june': 2}, 12250: {'januari': 1}, 12254: {'januari': 2}, 8159: {'juli': 1, 'june': 1}, 8160: {'januari': 1}, 6113: {'januari': 1}, 8164: {'june': 1}, 6481: {'januari': 1}, 8168: {'januari': 1}, 14316: {'june': 1}, 4077: {'januari': 3}, 8174: {'januari': 3}, 4081: {'januari': 1}, 8178: {'januari': 7}, 8179: {'june': 1}, 4084: {'januari': 3}, 4085: {'januari': 1}, 6137: {'januari': 1}, 4091: {'januari': 5}, 4092: {'januari': 1}, 8190: {'januari': 7}}
+{'januari': 1, 'juli': 5, 'june': 3}
+{'januari': 1, 'juli': 1, 'june': 1}
+{'januari': 2, 'juli': 1, 'june': 1}
+{'januari': 2, 'juli': 1, 'june': 2}
+{'januari': 1, 'juli': 1, 'june': 2}
+{'januari': 1, 'juli': 2, 'june': 1}
+{'januari': 4, 'juli': 3, 'june': 2}
+{'januari': 1, 'juli': 2, 'june': 2}
+{'januari': 1, 'juli': 1}
+{'januari': 1, 'juli': 1}
+{'juli': 1, 'june': 1}
+{'januari': 1, 'june': 1}
+{'januari': 1, 'juli': 1}
+{'juli': 2, 'june': 1}
+{'juli': 1, 'june': 3}
+{'juli': 1, 'june': 1}
+{'juli': 1, 'june': 1}
+{'januari': 1, 'june': 1}
+{'juli': 2, 'june': 1}
+{'juli': 1, 'june': 1}
+{'juli': 1, 'june': 1}
+{'januari': 1, 'june': 1}
+{'januari': 1, 'june': 1}
+{'januari': 1, 'juli': 2}
+{'januari': 2, 'june': 1}
+{'juli': 1, 'june': 1}
+{'juli': 2, 'june': 1}
+{'juli': 2, 'june': 1}
+{'januari': 1, 'juli': 1}
+{'juli': 2, 'june': 1}
+{'juli': 2, 'june': 4}
+{'januari': 1, 'juli': 1}
+{'juli': 1, 'june': 1}
+{'juli': 1, 'june': 1}
+{'januari': 3, 'june': 1}
+{'juli': 1, 'june': 5}
+{'juli': 1, 'june': 1}
+{'januari': 1, 'june': 1}
+{'januari': 1, 'juli': 1}
+{'juli': 1, 'june': 1}
+{'juli': 1, 'june': 1}
+{'juli': 1, 'june': 1}
+{'juli': 1, 'june': 1}
+{'januari': 7, 'juli': 1}
+{'januari': 6, 'juli': 1}
+{'januari': 6, 'juli': 1}
+{'juli': 2, 'june': 1}
+{'januari': 3, 'june': 1}
+{'juli': 1, 'june': 1}
+{'januari': 1, 'june': 1}
+{'juli': 1, 'june': 1}
+{'juli': 2, 'june': 1}
+{'januari': 2, 'june': 2}
+{'januari': 2, 'june': 1}
+{'januari': 3, 'juli': 1}
+{'januari': 4, 'juli': 1}
+{'juli': 1, 'june': 1}
+{'januari': 2, 'juli': 1}
+{'juli': 1, 'june': 1}
+{'juli': 1, 'june': 3}
+{'januari': 2, 'juli': 1}
+{'januari': 1, 'june': 1}
+{'januari': 6, 'juli': 2}
+{'januari': 1, 'june': 1}
+{'januari': 1, 'june': 1}
+{'juli': 1, 'june': 1}
+{'juli': 1, 'june': 1}
+{'januari': 1, 'juli': 1}
+{'januari': 1, 'june': 1}
+{'januari': 5, 'june': 1}
+{'juli': 3, 'june': 3}
+{'januari': 1, 'june': 2}
+{'juli': 2, 'june': 1}
+{'januari': 2, 'juli': 1}
+{'januari': 2, 'june': 1}
+{'januari': 1, 'june': 1}
+{'juli': 1, 'june': 1}
+{'juli': 1, 'june': 1}
+{'januari': 7, 'juli': 1}
+{'juli': 1, 'june': 1}
+{'januari': 1, 'june': 2}
+{'januari': 8, 'june': 1}
+{'januari': 1, 'juli': 3}
+{'juli': 1, 'june': 1}
+{'juli': 1, 'june': 2}
+{'juli': 1, 'june': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 2}
+{'januari': 7}
+{'januari': 2}
+{'januari': 2}
+{'januari': 1}
+{'june': 1}
+{'juli': 2}
+{'june': 1}
+{'januari': 3}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 2}
+{'januari': 2}
+{'januari': 1}
+{'januari': 2}
+{'june': 3}
+{'juli': 1}
+{'juli': 1}
+{'januari': 3}
+{'januari': 2}
+{'januari': 13}
+{'june': 2}
+{'june': 1}
+{'januari': 6}
+{'januari': 1}
+{'juli': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 2}
+{'januari': 1}
+{'juli': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 3}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 11}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 2}
+{'januari': 1}
+{'januari': 1}
+{'juli': 1}
+{'januari': 11}
+{'januari': 2}
+{'juli': 1}
+{'januari': 3}
+{'june': 1}
+{'januari': 2}
+{'januari': 12}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'june': 2}
+{'januari': 2}
+{'juli': 1}
+{'januari': 2}
+{'januari': 1}
+{'juli': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 2}
+{'juli': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 10}
+{'januari': 1}
+{'june': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 13}
+{'januari': 1}
+{'june': 1}
+{'juli': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'juli': 1}
+{'januari': 5}
+{'june': 1}
+{'juli': 1}
+{'juli': 1}
+{'januari': 1}
+{'januari': 3}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'juli': 1}
+{'june': 1}
+{'june': 1}
+{'juli': 3}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 2}
+{'januari': 2}
+{'june': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 5}
+{'januari': 1}
+{'januari': 4}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 2}
+{'juli': 1}
+{'januari': 2}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'june': 1}
+{'june': 1}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 3}
+{'juli': 1}
+{'januari': 4}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 6}
+{'june': 1}
+{'januari': 19}
+{'januari': 2}
+{'june': 1}
+{'june': 1}
+{'juli': 1}
+{'june': 1}
+{'june': 1}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 3}
+{'januari': 1}
+{'januari': 1}
+{'juli': 1}
+{'juli': 2}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'june': 1}
+{'june': 1}
+{'june': 1}
+{'june': 1}
+{'june': 2}
+{'june': 1}
+{'januari': 1}
+{'juli': 1}
+{'june': 1}
+{'june': 1}
+{'januari': 2}
+{'januari': 1}
+{'june': 1}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'juli': 1}
+{'juli': 1}
+{'june': 8}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 2}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 3}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 3}
+{'januari': 2}
+{'juli': 1}
+{'januari': 2}
+{'januari': 1}
+{'juli': 1}
+{'june': 1}
+{'juli': 2}
+{'januari': 1}
+{'januari': 1}
+{'januari': 2}
+{'june': 1}
+{'juli': 1}
+{'januari': 5}
+{'januari': 7}
+{'june': 1}
+{'januari': 5}
+{'januari': 1}
+{'januari': 2}
+{'januari': 2}
+{'june': 2}
+{'juli': 1}
+{'januari': 1}
+{'juli': 1}
+{'januari': 2}
+{'june': 1}
+{'januari': 11}
+{'januari': 1}
+{'januari': 13}
+{'januari': 4}
+{'januari': 2}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'juli': 1}
+{'januari': 1}
+{'juli': 1}
+{'januari': 9}
+{'januari': 8}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 3}
+{'januari': 4}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 2}
+{'januari': 3}
+{'juli': 1}
+{'june': 2}
+{'januari': 3}
+{'januari': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 1}
+{'januari': 5}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'june': 3}
+{'januari': 1}
+{'januari': 1}
+{'januari': 2}
+{'june': 1}
+{'june': 1}
+{'januari': 11}
+{'juli': 1}
+{'june': 1}
+{'januari': 1}
+{'june': 2}
+{'januari': 1}
+{'juli': 1}
+{'januari': 2}
+{'juli': 3}
+{'januari': 4}
+{'june': 1}
+{'june': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'juli': 1}
+{'june': 1}
+{'januari': 2}
+{'januari': 2}
+{'januari': 1}
+{'januari': 5}
+{'januari': 2}
+{'januari': 1}
+{'juli': 1}
+{'june': 1}
+{'januari': 1}
+{'juli': 1}
+{'juli': 1}
+{'januari': 1}
+{'juli': 1}
+{'januari': 1}
+{'januari': 3}
+{'januari': 1}
+{'juli': 1}
+{'januari': 1}
+{'juli': 1}
+{'januari': 4}
+{'januari': 15}
+{'januari': 2}
+{'june': 1}
+{'june': 2}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'june': 2}
+{'june': 1}
+{'januari': 1}
+{'januari': 10}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'juli': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'juli': 1}
+{'januari': 5}
+{'june': 1}
+{'june': 1}
+{'juli': 1}
+{'januari': 3}
+{'januari': 1}
+{'june': 1}
+{'juli': 1}
+{'juli': 1}
+{'januari': 1}
+{'januari': 1}
+{'juli': 2}
+{'june': 1}
+{'januari': 3}
+{'januari': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 4}
+{'juli': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 4}
+{'januari': 2}
+{'januari': 7}
+{'juli': 2}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 5}
+{'januari': 1}
+{'june': 1}
+{'januari': 2}
+{'june': 1}
+{'januari': 2}
+{'januari': 4}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 6}
+{'januari': 1}
+{'june': 1}
+{'januari': 5}
+{'juli': 1}
+{'june': 1}
+{'june': 1}
+{'januari': 2}
+{'januari': 3}
+{'januari': 2}
+{'june': 2}
+{'juli': 1}
+{'juli': 2}
+{'januari': 1}
+{'januari': 11}
+{'januari': 1}
+{'juli': 1}
+{'januari': 2}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 3}
+{'januari': 1}
+{'juli': 2}
+{'januari': 2}
+{'june': 1}
+{'june': 2}
+{'januari': 2}
+{'januari': 4}
+{'januari': 12}
+{'januari': 6}
+{'june': 1}
+{'juli': 1}
+{'june': 4}
+{'june': 1}
+{'june': 1}
+{'june': 1}
+{'juli': 1}
+{'januari': 1}
+{'june': 1}
+{'juli': 1}
+{'juli': 2}
+{'januari': 3}
+{'januari': 3}
+{'januari': 6}
+{'januari': 2}
+{'june': 1}
+{'juli': 1}
+{'juli': 1}
+{'januari': 2}
+{'januari': 2}
+{'januari': 1}
+{'januari': 1}
+{'june': 4}
+{'januari': 1}
+{'januari': 2}
+{'june': 1}
+{'januari': 1}
+{'januari': 2}
+{'juli': 1}
+{'januari': 3}
+{'januari': 2}
+{'januari': 2}
+{'januari': 1}
+{'januari': 4}
+{'juli': 1}
+{'june': 1}
+{'januari': 1}
+{'juli': 1}
+{'june': 2}
+{'januari': 4}
+{'januari': 1}
+{'june': 1}
+{'januari': 5}
+{'januari': 5}
+{'januari': 3}
+{'januari': 2}
+{'januari': 3}
+{'januari': 3}
+{'june': 1}
+{'june': 1}
+{'januari': 4}
+{'januari': 1}
+{'januari': 2}
+{'januari': 2}
+{'januari': 1}
+{'januari': 2}
+{'juli': 1}
+{'juli': 1}
+{'januari': 10}
+{'june': 1}
+{'june': 1}
+{'januari': 5}
+{'januari': 1}
+{'januari': 1}
+{'januari': 3}
+{'januari': 2}
+{'januari': 3}
+{'januari': 4}
+{'januari': 4}
+{'june': 1}
+{'june': 1}
+{'januari': 4}
+{'januari': 5}
+{'januari': 8}
+{'januari': 1}
+{'januari': 2}
+{'june': 1}
+{'januari': 2}
+{'june': 1}
+{'januari': 2}
+{'juli': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 5}
+{'januari': 4}
+{'januari': 1}
+{'june': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 2}
+{'januari': 2}
+{'januari': 10}
+{'januari': 6}
+{'januari': 2}
+{'januari': 2}
+{'januari': 1}
+{'januari': 1}
+{'januari': 6}
+{'june': 2}
+{'june': 2}
+{'june': 1}
+{'januari': 1}
+{'januari': 2}
+{'juli': 1}
+{'juli': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 4}
+{'januari': 1}
+{'june': 1}
+{'januari': 3}
+{'januari': 2}
+{'januari': 6}
+{'juli': 1}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 4}
+{'januari': 1}
+{'juli': 1}
+{'januari': 1}
+{'juli': 1}
+{'januari': 2}
+{'januari': 2}
+{'januari': 4}
+{'june': 2}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 3}
+{'januari': 1}
+{'januari': 1}
+{'januari': 3}
+{'januari': 1}
+{'januari': 1}
+{'januari': 3}
+{'januari': 2}
+{'januari': 1}
+{'januari': 2}
+{'januari': 6}
+{'januari': 3}
+{'januari': 3}
+{'januari': 2}
+{'januari': 3}
+{'januari': 6}
+{'june': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 2}
+{'june': 1}
+{'june': 1}
+{'juli': 2}
+{'june': 1}
+{'januari': 1}
+{'januari': 6}
+{'june': 2}
+{'januari': 2}
+{'januari': 1}
+{'januari': 1}
+{'juli': 4}
+{'januari': 1}
+{'januari': 1}
+{'juli': 1}
+{'june': 1}
+{'juli': 1}
+{'june': 1}
+{'juli': 1}
+{'juli': 1}
+{'januari': 2}
+{'juli': 1}
+{'juli': 1}
+{'june': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 4}
+{'januari': 2}
+{'june': 2}
+{'june': 2}
+{'juli': 1}
+{'june': 1}
+{'januari': 2}
+{'june': 1}
+{'januari': 1}
+{'juli': 1}
+{'januari': 2}
+{'januari': 1}
+{'juli': 1}
+{'januari': 2}
+{'januari': 3}
+{'june': 1}
+{'januari': 2}
+{'januari': 11}
+{'januari': 1}
+{'juli': 1}
+{'januari': 4}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'juli': 1}
+{'januari': 7}
+{'januari': 1}
+{'januari': 1}
+{'januari': 3}
+{'juli': 1}
+{'june': 1}
+{'june': 2}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 3}
+{'januari': 1}
+{'june': 1}
+{'juli': 1}
+{'juli': 1}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'juli': 2}
+{'januari': 1}
+{'june': 2}
+{'januari': 1}
+{'june': 1}
+{'june': 1}
+{'june': 1}
+{'june': 1}
+{'januari': 2}
+{'januari': 9}
+{'june': 1}
+{'june': 3}
+{'januari': 2}
+{'januari': 12}
+{'januari': 1}
+{'januari': 1}
+{'juli': 4}
+{'june': 1}
+{'januari': 1}
+{'januari': 9}
+{'januari': 1}
+{'januari': 1}
+{'januari': 2}
+{'juli': 1}
+{'juli': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 5}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 1}
+{'januari': 2}
+{'juli': 1}
+{'januari': 1}
+{'januari': 2}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'juli': 1}
+{'januari': 1}
+{'june': 2}
+{'januari': 6}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 5}
+{'januari': 1}
+{'june': 5}
+{'januari': 1}
+{'june': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'june': 1}
+{'june': 1}
+{'januari': 11}
+{'june': 1}
+{'june': 2}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 5}
+{'juli': 1}
+{'januari': 4}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 1}
+{'juli': 1}
+{'januari': 3}
+{'januari': 12}
+{'june': 1}
+{'januari': 2}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'june': 1}
+{'june': 3}
+{'juli': 1}
+{'januari': 1}
+{'januari': 7}
+{'januari': 1}
+{'januari': 7}
+{'januari': 1}
+{'januari': 2}
+{'june': 1}
+{'januari': 6}
+{'januari': 4}
+{'januari': 2}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 2}
+{'june': 1}
+{'januari': 6}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 12}
+{'januari': 1}
+{'januari': 5}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 4}
+{'januari': 7}
+{'juli': 1}
+{'june': 1}
+{'januari': 6}
+{'januari': 2}
+{'januari': 2}
+{'june': 1}
+{'januari': 3}
+{'januari': 5}
+{'januari': 4}
+{'juli': 2}
+{'januari': 6}
+{'januari': 7}
+{'januari': 2}
+{'januari': 1}
+{'januari': 3}
+{'juli': 1}
+{'januari': 4}
+{'juli': 1}
+{'juli': 1}
+{'juli': 1}
+{'januari': 2}
+{'januari': 1}
+{'januari': 2}
+{'januari': 3}
+{'januari': 3}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'juli': 3}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 2}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'june': 1}
+{'juli': 1}
+{'januari': 8}
+{'june': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 5}
+{'juli': 1}
+{'januari': 5}
+{'januari': 1}
+{'juli': 1}
+{'januari': 7}
+{'june': 1}
+{'june': 1}
+{'june': 1}
+{'june': 2}
+{'june': 1}
+{'juli': 1}
+{'januari': 2}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 4}
+{'januari': 1}
+{'januari': 2}
+{'june': 1}
+{'juli': 1}
+{'juli': 1}
+{'juli': 1}
+{'juli': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 2}
+{'januari': 10}
+{'june': 2}
+{'june': 1}
+{'januari': 1}
+{'juli': 1}
+{'june': 1}
+{'june': 4}
+{'juli': 1}
+{'januari': 2}
+{'januari': 2}
+{'januari': 1}
+{'januari': 2}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'juli': 1}
+{'januari': 1}
+{'juli': 1}
+{'januari': 6}
+{'juli': 1}
+{'juli': 2}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'june': 1}
+{'june': 2}
+{'june': 1}
+{'januari': 2}
+{'januari': 7}
+{'januari': 1}
+{'june': 1}
+{'june': 2}
+{'januari': 1}
+{'june': 1}
+{'june': 1}
+{'juli': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 3}
+{'januari': 1}
+{'januari': 1}
+{'juli': 1}
+{'june': 1}
+{'januari': 3}
+{'januari': 1}
+{'june': 1}
+{'januari': 2}
+{'june': 1}
+{'januari': 4}
+{'juli': 1}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 4}
+{'june': 1}
+{'june': 5}
+{'juli': 1}
+{'januari': 2}
+{'januari': 4}
+{'januari': 2}
+{'januari': 3}
+{'januari': 4}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 1}
+{'januari': 2}
+{'januari': 1}
+{'januari': 3}
+{'januari': 1}
+{'januari': 1}
+{'januari': 6}
+{'januari': 5}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 2}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 1}
+{'januari': 1}
+{'june': 1}
+{'januari': 3}
+{'januari': 3}
+{'januari': 1}
+{'januari': 7}
+{'june': 1}
+{'januari': 3}
+{'januari': 1}
+{'januari': 1}
+{'januari': 5}
+{'januari': 1}
+{'januari': 7}
 reading query
-{11778: {'malaysia': 1}, 10756: {'singapor': 1}, 11270: {'malaysia': 2}, 6153: {'malaysia': 1}, 10754: {'singapor': 4}, 9234: {'singapor': 1}, 5139: {'singapor': 1}, 11801: {'malaysia': 1}, 3615: {'singapor': 1}, 11808: {'malaysia': 1, 'singapor': 1}, 11816: {'singapor': 3}, 9769: {'malaysia': 1}, 4650: {'malaysia': 2}, 5169: {'malaysia': 1}, 11830: {'singapor': 1}, 10302: {'singapor': 1}, 9792: {'malaysia': 4, 'singapor': 1}, 11843: {'malaysia': 10}, 4022: {'singapor': 1}, 10593: {'singapor': 5}, 5195: {'malaysia': 2}, 11350: {'malaysia': 1}, 5216: {'malaysia': 4}, 12397: {'singapor': 10}, 4209: {'singapor': 1}, 11891: {'malaysia': 1, 'singapor': 1}, 12416: {'singapor': 1}, 7873: {'malaysia': 1}, 7304: {'singapor': 3}, 5258: {'malaysia': 1}, 1675: {'malaysia': 1, 'singapor': 1}, 10901: {'singapor': 2}, 13462: {'malaysia': 1}, 5792: {'singapor': 2}, 5285: {'malaysia': 1}, 5292: {'singapor': 1}, 884: {'malaysia': 1}, 9406: {'malaysia': 1}, 6944: {'singapor': 1}, 10947: {'singapor': 3}, 8902: {'malaysia': 1, 'singapor': 2}, 6344: {'malaysia': 1}, 4824: {'singapor': 2}, 6361: {'singapor': 2}, 9953: {'malaysia': 2}, 7397: {'singapor': 2}, 9450: {'malaysia': 1}, 4845: {'singapor': 2}, 4138: {'malaysia': 1}, 2815: {'malaysia': 1}, 5382: {'malaysia': 1}, 10505: {'malaysia': 1}, 6432: {'malaysia': 8}, 7460: {'singapor': 2}, 4405: {'singapor': 3}, 311: {'malaysia': 3}, 3901: {'singapor': 1}, 908: {'malaysia': 1}, 1356: {'malaysia': 1}, 4941: {'singapor': 1}, 10584: {'malaysia': 1}, 5473: {'singapor': 1}, 872: {'malaysia': 1}, 3438: {'malaysia': 3}, 7024: {'singapor': 1}, 3442: {'singapor': 1}, 10612: {'singapor': 1}, 885: {'malaysia': 1}, 10615: {'malaysia': 2}, 8060: {'singapor': 1}, 1407: {'singapor': 2}, 12162: {'singapor': 1}, 1929: {'malaysia': 1, 'singapor': 1}, 2956: {'malaysia': 3}, 3984: {'singapor': 1}, 2962: {'malaysia': 1}, 1960: {'singapor': 4}, 13738: {'malaysia': 6}, 8111: {'malaysia': 3, 'singapor': 2}, 2993: {'singapor': 1}, 2994: {'singapor': 3}, 2998: {'singapor': 1}, 8119: {'singapor': 2}, 12746: {'singapor': 1}, 10709: {'singapor': 5}, 11224: {'malaysia': 2}, 7135: {'singapor': 2}, 3051: {'malaysia': 3}, 9196: {'singapor': 3}, 4080: {'malaysia': 2}, 9203: {'malaysia': 3, 'singapor': 1}, 10746: {'singapor': 4}, 11775: {'malaysia': 2}}
+{'malaysia': 1, 'singapor': 1}
+{'malaysia': 4, 'singapor': 1}
+{'malaysia': 1, 'singapor': 1}
+{'malaysia': 1, 'singapor': 1}
+{'malaysia': 1, 'singapor': 2}
+{'malaysia': 1, 'singapor': 1}
+{'malaysia': 3, 'singapor': 2}
+{'malaysia': 3, 'singapor': 1}
+{'malaysia': 1}
+{'singapor': 1}
+{'malaysia': 2}
+{'malaysia': 1}
+{'singapor': 4}
+{'singapor': 1}
+{'singapor': 1}
+{'malaysia': 1}
+{'singapor': 1}
+{'singapor': 3}
+{'malaysia': 1}
+{'malaysia': 2}
+{'malaysia': 1}
+{'singapor': 1}
+{'singapor': 1}
+{'malaysia': 10}
+{'singapor': 1}
+{'singapor': 5}
+{'malaysia': 2}
+{'malaysia': 1}
+{'malaysia': 4}
+{'singapor': 10}
+{'singapor': 1}
+{'singapor': 1}
+{'malaysia': 1}
+{'singapor': 3}
+{'malaysia': 1}
+{'singapor': 2}
+{'malaysia': 1}
+{'singapor': 2}
+{'malaysia': 1}
+{'singapor': 1}
+{'malaysia': 1}
+{'malaysia': 1}
+{'singapor': 1}
+{'singapor': 3}
+{'malaysia': 1}
+{'singapor': 2}
+{'singapor': 2}
+{'malaysia': 2}
+{'singapor': 2}
+{'malaysia': 1}
+{'singapor': 2}
+{'malaysia': 1}
+{'malaysia': 1}
+{'malaysia': 1}
+{'malaysia': 1}
+{'malaysia': 8}
+{'singapor': 2}
+{'singapor': 3}
+{'malaysia': 3}
+{'singapor': 1}
+{'malaysia': 1}
+{'malaysia': 1}
+{'singapor': 1}
+{'malaysia': 1}
+{'singapor': 1}
+{'malaysia': 1}
+{'malaysia': 3}
+{'singapor': 1}
+{'singapor': 1}
+{'singapor': 1}
+{'malaysia': 1}
+{'malaysia': 2}
+{'singapor': 1}
+{'singapor': 2}
+{'singapor': 1}
+{'malaysia': 3}
+{'singapor': 1}
+{'malaysia': 1}
+{'singapor': 4}
+{'malaysia': 6}
+{'singapor': 1}
+{'singapor': 3}
+{'singapor': 1}
+{'singapor': 2}
+{'singapor': 1}
+{'singapor': 5}
+{'malaysia': 2}
+{'singapor': 2}
+{'malaysia': 3}
+{'singapor': 3}
+{'malaysia': 2}
+{'singapor': 4}
+{'malaysia': 2}
 reading query
-{10246: {'dollar': 2}, 2061: {'dollar': 1}, 10255: {'dollar': 3}, 10263: {'dollar': 2, 'yen': 2}, 9220: {'dollar': 7, 'yen': 5}, 4122: {'dollar': 2}, 10275: {'dollar': 1, 'yen': 1}, 45: {'dollar': 1}, 12337: {'dollar': 9, 'yen': 1}, 12340: {'dollar': 2}, 56: {'dollar': 1}, 2108: {'dollar': 1}, 2110: {'dollar': 2}, 4160: {'dollar': 2, 'yen': 2}, 6209: {'dollar': 1}, 12355: {'dollar': 1}, 10308: {'dollar': 2, 'yen': 4}, 4165: {'dollar': 1, 'yen': 3}, 2118: {'dollar': 1}, 4170: {'dollar': 2}, 10315: {'yen': 3}, 696: {'dollar': 1}, 82: {'dollar': 1}, 10323: {'dollar': 2, 'yen': 2}, 10328: {'dollar': 1}, 97: {'dollar': 1}, 10340: {'dollar': 2}, 10341: {'dollar': 1, 'yen': 3}, 12394: {'dollar': 1}, 12396: {'dollar': 2, 'yen': 1}, 10355: {'dollar': 1, 'yen': 2}, 8309: {'dollar': 1}, 10358: {'dollar': 5, 'yen': 4}, 10359: {'dollar': 4, 'yen': 4}, 10361: {'dollar': 1}, 123: {'dollar': 1}, 10364: {'dollar': 2, 'yen': 4}, 4223: {'dollar': 1}, 10368: {'dollar': 2}, 10370: {'dollar': 2, 'yen': 2}, 2181: {'dollar': 2}, 12422: {'dollar': 4}, 2190: {'dollar': 5, 'yen': 4}, 12432: {'dollar': 2}, 2197: {'dollar': 2}, 10398: {'dollar': 1}, 12447: {'dollar': 2}, 2221: {'dollar': 7}, 12463: {'dollar': 2}, 10418: {'dollar': 3}, 179: {'dollar': 1}, 2228: {'dollar': 2}, 12470: {'dollar': 3, 'yen': 3}, 4286: {'dollar': 1}, 12480: {'dollar': 1, 'yen': 1}, 6338: {'dollar': 1, 'yen': 6}, 12488: {'dollar': 1}, 11327: {'dollar': 1}, 6346: {'dollar': 1, 'yen': 2}, 203: {'dollar': 4}, 6357: {'yen': 22}, 221: {'yen': 3}, 229: {'yen': 8}, 2278: {'dollar': 1}, 6376: {'dollar': 2, 'yen': 9}, 12522: {'dollar': 3}, 10475: {'dollar': 4, 'yen': 3}, 236: {'dollar': 2}, 2286: {'dollar': 3, 'yen': 5}, 12529: {'dollar': 2}, 242: {'dollar': 1}, 256: {'dollar': 2}, 260: {'yen': 3}, 6406: {'dollar': 1}, 271: {'dollar': 1, 'yen': 1}, 2327: {'dollar': 2}, 284: {'dollar': 2, 'yen': 1}, 2352: {'dollar': 4, 'yen': 1}, 8584: {'dollar': 2, 'yen': 2}, 10546: {'dollar': 6, 'yen': 1}, 10553: {'dollar': 1}, 317: {'dollar': 1, 'yen': 3}, 322: {'yen': 2}, 342: {'yen': 1}, 6493: {'dollar': 1}, 352: {'dollar': 1}, 10593: {'dollar': 3}, 2406: {'dollar': 2}, 10606: {'dollar': 1}, 10617: {'dollar': 12, 'yen': 4}, 10618: {'dollar': 1}, 3135: {'dollar': 1}, 10310: {'yen': 1}, 8578: {'dollar': 2}, 6531: {'dollar': 1}, 10632: {'dollar': 1}, 10633: {'dollar': 1}, 8586: {'dollar': 2}, 8588: {'dollar': 1, 'yen': 2}, 6541: {'yen': 3}, 8590: {'dollar': 2}, 8591: {'dollar': 4, 'yen': 1}, 2452: {'dollar': 3, 'yen': 1}, 8597: {'dollar': 5}, 10650: {'dollar': 2, 'yen': 2}, 10651: {'dollar': 2, 'yen': 2}, 10652: {'dollar': 2, 'yen': 2}, 8606: {'dollar': 1}, 8607: {'dollar': 2, 'yen': 2}, 10657: {'dollar': 2}, 10659: {'dollar': 3, 'yen': 2}, 10660: {'dollar': 1, 'yen': 1}, 10661: {'dollar': 5}, 425: {'dollar': 1}, 8621: {'dollar': 15, 'yen': 4}, 14767: {'dollar': 11, 'yen': 7}, 14770: {'dollar': 5}, 8628: {'dollar': 1, 'yen': 2}, 10654: {'dollar': 3, 'yen': 3}, 8630: {'dollar': 1}, 10679: {'yen': 2}, 14777: {'dollar': 2, 'yen': 2}, 14779: {'dollar': 5, 'yen': 3}, 10684: {'dollar': 4, 'yen': 3}, 10689: {'dollar': 2, 'yen': 3}, 10693: {'dollar': 3, 'yen': 3}, 10696: {'dollar': 7, 'yen': 6}, 4555: {'dollar': 2}, 10703: {'dollar': 1}, 10704: {'dollar': 4}, 8657: {'dollar': 4, 'yen': 1}, 8658: {'dollar': 2, 'yen': 2}, 14805: {'yen': 1}, 8664: {'dollar': 15, 'yen': 4}, 2521: {'dollar': 1}, 8666: {'dollar': 1, 'yen': 2}, 12763: {'dollar': 1}, 10717: {'yen': 2}, 8670: {'dollar': 1, 'yen': 2}, 14757: {'dollar': 3, 'yen': 2}, 14818: {'dollar': 1}, 8063: {'dollar': 7}, 12772: {'dollar': 1}, 10731: {'dollar': 2}, 12780: {'dollar': 6, 'yen': 1}, 10734: {'dollar': 2}, 10736: {'dollar': 5, 'yen': 1}, 12788: {'dollar': 1}, 3497: {'dollar': 1}, 2554: {'dollar': 1}, 12795: {'dollar': 3}, 10749: {'dollar': 4}, 10751: {'dollar': 4, 'yen': 1}, 6657: {'dollar': 1}, 6658: {'dollar': 1}, 10756: {'dollar': 2}, 8710: {'dollar': 2, 'yen': 2}, 4616: {'dollar': 2, 'yen': 1}, 6665: {'dollar': 1}, 8714: {'dollar': 14, 'yen': 4}, 524: {'yen': 3}, 10766: {'dollar': 5, 'yen': 1}, 12815: {'dollar': 3, 'yen': 1}, 4625: {'dollar': 1}, 10770: {'dollar': 1, 'yen': 1}, 10771: {'dollar': 2, 'yen': 3}, 10773: {'dollar': 2}, 10774: {'dollar': 5}, 4633: {'dollar': 2, 'yen': 6}, 4636: {'dollar': 1}, 10782: {'dollar': 3}, 8735: {'dollar': 3, 'yen': 2}, 4640: {'yen': 1}, 4644: {'yen': 2}, 4648: {'yen': 2}, 8746: {'dollar': 3}, 12848: {'dollar': 4}, 10804: {'dollar': 6, 'yen': 6}, 10807: {'dollar': 7, 'yen': 6}, 10808: {'dollar': 4}, 10809: {'dollar': 6, 'yen': 2}, 2618: {'dollar': 1}, 11203: {'dollar': 4, 'yen': 7}, 2623: {'dollar': 2}, 4675: {'dollar': 2, 'yen': 2}, 10337: {'dollar': 2, 'yen': 2}, 4680: {'dollar': 1, 'yen': 3}, 2633: {'dollar': 4, 'yen': 2}, 12877: {'dollar': 3}, 12878: {'dollar': 2}, 3512: {'dollar': 3}, 11406: {'dollar': 1}, 4691: {'dollar': 1}, 4695: {'yen': 5}, 8796: {'dollar': 4}, 4703: {'dollar': 1, 'yen': 3}, 4708: {'yen': 2}, 4709: {'dollar': 2, 'yen': 6}, 4712: {'dollar': 2, 'yen': 1}, 14785: {'dollar': 2}, 10905: {'dollar': 1}, 6816: {'dollar': 2}, 10931: {'dollar': 7}, 8884: {'dollar': 5, 'yen': 1}, 2742: {'dollar': 3}, 2744: {'dollar': 1}, 697: {'dollar': 1}, 12986: {'dollar': 1}, 10357: {'dollar': 6, 'yen': 3}, 10944: {'dollar': 1}, 12406: {'dollar': 1}, 4809: {'dollar': 6}, 6866: {'dollar': 1}, 2775: {'dollar': 2}, 8922: {'dollar': 1}, 13019: {'dollar': 1}, 4835: {'dollar': 2}, 12753: {'dollar': 1}, 13053: {'dollar': 3}, 12437: {'dollar': 4}, 12416: {'dollar': 6}, 6922: {'dollar': 3}, 12418: {'dollar': 1}, 4882: {'dollar': 2}, 8984: {'dollar': 2}, 2843: {'dollar': 1}, 6945: {'dollar': 4}, 6952: {'dollar': 1, 'yen': 2}, 11211: {'yen': 1}, 9007: {'dollar': 5, 'yen': 1}, 6961: {'yen': 1}, 10718: {'dollar': 2, 'yen': 5}, 6968: {'dollar': 1}, 8671: {'yen': 2}, 9022: {'dollar': 16, 'yen': 13}, 6985: {'yen': 2}, 4938: {'dollar': 1}, 843: {'dollar': 1}, 9698: {'yen': 2}, 4944: {'dollar': 7}, 10382: {'dollar': 13, 'yen': 6}, 9054: {'dollar': 2}, 9055: {'dollar': 1}, 867: {'dollar': 1, 'yen': 1}, 868: {'dollar': 1}, 9061: {'dollar': 4, 'yen': 1}, 872: {'dollar': 3, 'yen': 5}, 2925: {'dollar': 1}, 11120: {'dollar': 3}, 11124: {'dollar': 1}, 7030: {'yen': 1}, 9079: {'dollar': 4}, 889: {'yen': 1}, 9706: {'dollar': 1}, 11135: {'dollar': 6}, 903: {'dollar': 6}, 11149: {'dollar': 3}, 915: {'dollar': 1}, 11160: {'yen': 1}, 921: {'dollar': 2}, 7066: {'dollar': 1}, 11163: {'dollar': 6, 'yen': 3}, 11164: {'dollar': 2, 'yen': 2}, 9120: {'dollar': 5, 'yen': 3}, 2979: {'dollar': 3}, 9127: {'dollar': 1}, 9128: {'dollar': 2, 'yen': 2}, 9129: {'dollar': 3, 'yen': 2}, 938: {'dollar': 2}, 9134: {'dollar': 7, 'yen': 5}, 2993: {'dollar': 2}, 9138: {'yen': 2}, 9146: {'yen': 3}, 9147: {'dollar': 1, 'yen': 1}, 13244: {'dollar': 2}, 9149: {'dollar': 3, 'yen': 8}, 11083: {'dollar': 7, 'yen': 1}, 11209: {'dollar': 1}, 3019: {'dollar': 9, 'yen': 4}, 3020: {'dollar': 4}, 11213: {'dollar': 2}, 9166: {'dollar': 4, 'yen': 2}, 3024: {'dollar': 1}, 9170: {'dollar': 2}, 3031: {'dollar': 1}, 11225: {'yen': 1}, 9181: {'yen': 7}, 9182: {'dollar': 1}, 7135: {'dollar': 4, 'yen': 1}, 11234: {'dollar': 2}, 11238: {'dollar': 3}, 11241: {'yen': 1}, 11243: {'dollar': 1}, 11244: {'dollar': 1, 'yen': 7}, 11773: {'dollar': 2}, 9202: {'dollar': 1}, 11254: {'dollar': 3, 'yen': 3}, 3065: {'dollar': 11, 'yen': 4}, 12799: {'dollar': 2}, 9213: {'dollar': 2, 'yen': 8}, 9214: {'dollar': 5, 'yen': 3}, 9216: {'yen': 2}, 13315: {'dollar': 3, 'yen': 2}, 3076: {'dollar': 3}, 9222: {'dollar': 4, 'yen': 2}, 9224: {'dollar': 6, 'yen': 6}, 9230: {'dollar': 1}, 11279: {'dollar': 1}, 1047: {'dollar': 1}, 11291: {'dollar': 1}, 3931: {'dollar': 1, 'yen': 1}, 12806: {'dollar': 1}, 13831: {'dollar': 2}, 5176: {'dollar': 2}, 11103: {'dollar': 2, 'yen': 1}, 11324: {'dollar': 1}, 10762: {'dollar': 4, 'yen': 3}, 5183: {'dollar': 6}, 9282: {'dollar': 2, 'yen': 2}, 5189: {'dollar': 1}, 5190: {'dollar': 3}, 1096: {'dollar': 1}, 7538: {'yen': 5}, 9295: {'dollar': 11, 'yen': 6}, 2915: {'dollar': 1}, 5204: {'yen': 2}, 5206: {'dollar': 5, 'yen': 3}, 5210: {'dollar': 1, 'yen': 3}, 5214: {'dollar': 1}, 13157: {'dollar': 3}, 10769: {'dollar': 3, 'yen': 2}, 11379: {'dollar': 1}, 12791: {'dollar': 3}, 7310: {'dollar': 1}, 3222: {'dollar': 1}, 5271: {'dollar': 4, 'yen': 3}, 5278: {'dollar': 2}, 5280: {'dollar': 6}, 9377: {'dollar': 2}, 11430: {'dollar': 1}, 10780: {'dollar': 11, 'yen': 4}, 5290: {'dollar': 4, 'yen': 1}, 3249: {'dollar': 1}, 12830: {'yen': 1}, 11447: {'dollar': 1}, 11450: {'dollar': 2}, 7357: {'dollar': 1}, 11808: {'yen': 1}, 3267: {'dollar': 6}, 13512: {'dollar': 2}, 3273: {'dollar': 3}, 3277: {'dollar': 1}, 7375: {'dollar': 4}, 13524: {'dollar': 3, 'yen': 4}, 5338: {'dollar': 3}, 13531: {'dollar': 11, 'yen': 4}, 11490: {'dollar': 1}, 13544: {'dollar': 3, 'yen': 2}, 11498: {'dollar': 5}, 5371: {'dollar': 1}, 12842: {'dollar': 3}, 10681: {'yen': 2}, 7429: {'dollar': 1}, 3338: {'dollar': 4}, 5394: {'dollar': 5}, 11822: {'yen': 1}, 3352: {'dollar': 1}, 8068: {'yen': 4}, 13530: {'yen': 6}, 11551: {'dollar': 1}, 12461: {'dollar': 1, 'yen': 1}, 11555: {'dollar': 2}, 7460: {'yen': 1}, 9535: {'dollar': 2}, 1347: {'dollar': 1}, 5453: {'dollar': 1}, 3419: {'yen': 2}, 13660: {'dollar': 2}, 3421: {'dollar': 10, 'yen': 9}, 5474: {'yen': 1}, 7531: {'dollar': 1}, 11162: {'dollar': 2, 'yen': 2}, 3442: {'dollar': 3, 'yen': 1}, 7541: {'yen': 1}, 7544: {'yen': 5}, 3449: {'yen': 2}, 1409: {'yen': 1}, 9603: {'dollar': 1}, 3460: {'yen': 1}, 11658: {'dollar': 1}, 11661: {'dollar': 1}, 7566: {'dollar': 1}, 3472: {'dollar': 1, 'yen': 1}, 11667: {'dollar': 1}, 3483: {'dollar': 1}, 922: {'dollar': 1, 'yen': 1}, 3488: {'dollar': 1, 'yen': 6}, 2178: {'yen': 2}, 3493: {'dollar': 2}, 9641: {'dollar': 1}, 4338: {'dollar': 2}, 10825: {'dollar': 4}, 9656: {'dollar': 1}, 4686: {'yen': 3}, 3520: {'dollar': 1, 'yen': 1}, 3528: {'yen': 2}, 7628: {'dollar': 6, 'yen': 11}, 7629: {'dollar': 1}, 3535: {'dollar': 6}, 9681: {'dollar': 1}, 7075: {'dollar': 2}, 3541: {'dollar': 1}, 11734: {'dollar': 4, 'yen': 2}, 9689: {'dollar': 3, 'yen': 1}, 7645: {'dollar': 1}, 9697: {'dollar': 1}, 11746: {'dollar': 3}, 9701: {'dollar': 2, 'yen': 3}, 11752: {'dollar': 1}, 1514: {'dollar': 2}, 8103: {'yen': 1}, 7662: {'dollar': 2}, 11764: {'dollar': 2, 'yen': 2}, 7669: {'dollar': 3}, 12201: {'yen': 2}, 9720: {'dollar': 1, 'yen': 2}, 11772: {'dollar': 2, 'yen': 2}, 1533: {'dollar': 4}, 11774: {'dollar': 4, 'yen': 4}, 9730: {'dollar': 1}, 9734: {'dollar': 2}, 11783: {'dollar': 2}, 3593: {'dollar': 2, 'yen': 1}, 11787: {'yen': 2}, 1550: {'dollar': 2}, 9753: {'dollar': 1}, 9754: {'yen': 3}, 5661: {'dollar': 1}, 9760: {'dollar': 2}, 9761: {'dollar': 1}, 9763: {'dollar': 1}, 9764: {'dollar': 24, 'yen': 10}, 11813: {'dollar': 4}, 11817: {'dollar': 1}, 9770: {'yen': 1}, 13869: {'dollar': 4}, 3630: {'dollar': 1}, 11830: {'yen': 4}, 9783: {'dollar': 5, 'yen': 1}, 13919: {'dollar': 3}, 11839: {'dollar': 3}, 9792: {'dollar': 2, 'yen': 1}, 9793: {'dollar': 1}, 11844: {'dollar': 2}, 9797: {'dollar': 2, 'yen': 1}, 11848: {'dollar': 1}, 11852: {'dollar': 3}, 13903: {'dollar': 4}, 3666: {'dollar': 1}, 11861: {'dollar': 2}, 9816: {'dollar': 1}, 3532: {'yen': 3}, 6757: {'dollar': 2}, 955: {'yen': 1}, 13245: {'dollar': 3}, 11896: {'dollar': 1}, 4031: {'yen': 1}, 7804: {'dollar': 3}, 13949: {'dollar': 1}, 5761: {'dollar': 1}, 9861: {'dollar': 1}, 9862: {'dollar': 2, 'yen': 2}, 5767: {'dollar': 3}, 5769: {'dollar': 1, 'yen': 1}, 279: {'yen': 3}, 11918: {'dollar': 1}, 9871: {'dollar': 6, 'yen': 4}, 5778: {'dollar': 17, 'yen': 3}, 5779: {'dollar': 5}, 5787: {'dollar': 3, 'yen': 1}, 5788: {'dollar': 2}, 3466: {'yen': 5}, 3743: {'dollar': 1}, 1696: {'dollar': 1}, 13988: {'dollar': 3}, 5798: {'yen': 2}, 11944: {'dollar': 3}, 11946: {'dollar': 1}, 5805: {'yen': 1}, 5808: {'dollar': 1}, 3762: {'dollar': 1}, 5811: {'dollar': 1}, 5812: {'yen': 3}, 5815: {'yen': 3}, 9923: {'dollar': 4}, 11972: {'dollar': 1}, 11212: {'dollar': 3}, 13261: {'dollar': 6}, 5070: {'dollar': 25, 'yen': 10}, 3798: {'dollar': 2}, 9946: {'dollar': 6, 'yen': 5}, 5858: {'dollar': 17, 'yen': 3}, 2001: {'dollar': 2}, 11175: {'yen': 3}, 5879: {'yen': 1}, 9984: {'dollar': 1}, 7950: {'dollar': 1}, 1811: {'dollar': 1}, 2354: {'dollar': 8, 'yen': 8}, 5941: {'dollar': 1}, 10041: {'dollar': 1}, 10048: {'dollar': 1}, 1863: {'dollar': 1}, 12122: {'dollar': 1}, 10075: {'dollar': 2}, 10081: {'dollar': 4}, 12136: {'dollar': 16, 'yen': 4}, 1897: {'dollar': 1}, 10091: {'dollar': 1}, 1904: {'yen': 5}, 12145: {'dollar': 1, 'yen': 1}, 10106: {'dollar': 1}, 1919: {'dollar': 1}, 8064: {'dollar': 3}, 1924: {'yen': 6}, 1926: {'dollar': 8, 'yen': 8}, 8074: {'dollar': 2}, 6035: {'dollar': 1}, 3989: {'dollar': 1}, 10135: {'dollar': 1}, 1949: {'dollar': 2}, 8097: {'dollar': 5}, 8098: {'dollar': 1}, 6054: {'dollar': 1}, 1959: {'dollar': 1}, 8105: {'dollar': 1}, 8106: {'dollar': 1}, 8111: {'dollar': 1}, 8117: {'dollar': 1}, 4027: {'dollar': 2}, 1983: {'dollar': 3}, 6083: {'dollar': 3}, 8137: {'dollar': 5}, 4049: {'dollar': 1, 'yen': 4}, 8149: {'dollar': 1}, 8153: {'dollar': 2, 'yen': 1}, 6108: {'dollar': 8, 'yen': 3}, 12259: {'dollar': 1}, 2025: {'dollar': 3}, 4074: {'dollar': 1, 'yen': 4}, 8173: {'dollar': 1}, 4093: {'dollar': 6}, 4081: {'dollar': 1}, 8184: {'yen': 1}, 6137: {'dollar': 3}, 8186: {'dollar': 1}, 8189: {'dollar': 5}}
+{'dollar': 2, 'yen': 2}
+{'dollar': 7, 'yen': 5}
+{'dollar': 1, 'yen': 1}
+{'dollar': 9, 'yen': 1}
+{'dollar': 2, 'yen': 2}
+{'dollar': 2, 'yen': 4}
+{'dollar': 1, 'yen': 3}
+{'dollar': 2, 'yen': 2}
+{'dollar': 1, 'yen': 3}
+{'dollar': 2, 'yen': 1}
+{'dollar': 1, 'yen': 2}
+{'dollar': 5, 'yen': 4}
+{'dollar': 4, 'yen': 4}
+{'dollar': 2, 'yen': 4}
+{'dollar': 2, 'yen': 2}
+{'dollar': 5, 'yen': 4}
+{'dollar': 3, 'yen': 3}
+{'dollar': 1, 'yen': 1}
+{'dollar': 1, 'yen': 6}
+{'dollar': 1, 'yen': 2}
+{'dollar': 2, 'yen': 9}
+{'dollar': 4, 'yen': 3}
+{'dollar': 3, 'yen': 5}
+{'dollar': 1, 'yen': 1}
+{'dollar': 2, 'yen': 1}
+{'dollar': 4, 'yen': 1}
+{'dollar': 2, 'yen': 2}
+{'dollar': 6, 'yen': 1}
+{'dollar': 1, 'yen': 3}
+{'dollar': 12, 'yen': 4}
+{'dollar': 1, 'yen': 2}
+{'dollar': 4, 'yen': 1}
+{'dollar': 3, 'yen': 1}
+{'dollar': 2, 'yen': 2}
+{'dollar': 2, 'yen': 2}
+{'dollar': 2, 'yen': 2}
+{'dollar': 2, 'yen': 2}
+{'dollar': 3, 'yen': 2}
+{'dollar': 1, 'yen': 1}
+{'dollar': 15, 'yen': 4}
+{'dollar': 11, 'yen': 7}
+{'dollar': 1, 'yen': 2}
+{'dollar': 3, 'yen': 3}
+{'dollar': 2, 'yen': 2}
+{'dollar': 5, 'yen': 3}
+{'dollar': 4, 'yen': 3}
+{'dollar': 2, 'yen': 3}
+{'dollar': 3, 'yen': 3}
+{'dollar': 7, 'yen': 6}
+{'dollar': 4, 'yen': 1}
+{'dollar': 2, 'yen': 2}
+{'dollar': 15, 'yen': 4}
+{'dollar': 1, 'yen': 2}
+{'dollar': 1, 'yen': 2}
+{'dollar': 3, 'yen': 2}
+{'dollar': 6, 'yen': 1}
+{'dollar': 5, 'yen': 1}
+{'dollar': 4, 'yen': 1}
+{'dollar': 2, 'yen': 2}
+{'dollar': 2, 'yen': 1}
+{'dollar': 14, 'yen': 4}
+{'dollar': 5, 'yen': 1}
+{'dollar': 3, 'yen': 1}
+{'dollar': 1, 'yen': 1}
+{'dollar': 2, 'yen': 3}
+{'dollar': 2, 'yen': 6}
+{'dollar': 3, 'yen': 2}
+{'dollar': 6, 'yen': 6}
+{'dollar': 7, 'yen': 6}
+{'dollar': 6, 'yen': 2}
+{'dollar': 4, 'yen': 7}
+{'dollar': 2, 'yen': 2}
+{'dollar': 2, 'yen': 2}
+{'dollar': 1, 'yen': 3}
+{'dollar': 4, 'yen': 2}
+{'dollar': 1, 'yen': 3}
+{'dollar': 2, 'yen': 6}
+{'dollar': 2, 'yen': 1}
+{'dollar': 5, 'yen': 1}
+{'dollar': 6, 'yen': 3}
+{'dollar': 1, 'yen': 2}
+{'dollar': 5, 'yen': 1}
+{'dollar': 2, 'yen': 5}
+{'dollar': 16, 'yen': 13}
+{'dollar': 13, 'yen': 6}
+{'dollar': 1, 'yen': 1}
+{'dollar': 4, 'yen': 1}
+{'dollar': 3, 'yen': 5}
+{'dollar': 6, 'yen': 3}
+{'dollar': 2, 'yen': 2}
+{'dollar': 5, 'yen': 3}
+{'dollar': 2, 'yen': 2}
+{'dollar': 3, 'yen': 2}
+{'dollar': 7, 'yen': 5}
+{'dollar': 1, 'yen': 1}
+{'dollar': 3, 'yen': 8}
+{'dollar': 7, 'yen': 1}
+{'dollar': 9, 'yen': 4}
+{'dollar': 4, 'yen': 2}
+{'dollar': 4, 'yen': 1}
+{'dollar': 1, 'yen': 7}
+{'dollar': 3, 'yen': 3}
+{'dollar': 11, 'yen': 4}
+{'dollar': 2, 'yen': 8}
+{'dollar': 5, 'yen': 3}
+{'dollar': 3, 'yen': 2}
+{'dollar': 4, 'yen': 2}
+{'dollar': 6, 'yen': 6}
+{'dollar': 1, 'yen': 1}
+{'dollar': 2, 'yen': 1}
+{'dollar': 4, 'yen': 3}
+{'dollar': 2, 'yen': 2}
+{'dollar': 11, 'yen': 6}
+{'dollar': 5, 'yen': 3}
+{'dollar': 1, 'yen': 3}
+{'dollar': 3, 'yen': 2}
+{'dollar': 4, 'yen': 3}
+{'dollar': 11, 'yen': 4}
+{'dollar': 4, 'yen': 1}
+{'dollar': 3, 'yen': 4}
+{'dollar': 11, 'yen': 4}
+{'dollar': 3, 'yen': 2}
+{'dollar': 1, 'yen': 1}
+{'dollar': 10, 'yen': 9}
+{'dollar': 2, 'yen': 2}
+{'dollar': 3, 'yen': 1}
+{'dollar': 1, 'yen': 1}
+{'dollar': 1, 'yen': 1}
+{'dollar': 1, 'yen': 6}
+{'dollar': 1, 'yen': 1}
+{'dollar': 6, 'yen': 11}
+{'dollar': 4, 'yen': 2}
+{'dollar': 3, 'yen': 1}
+{'dollar': 2, 'yen': 3}
+{'dollar': 2, 'yen': 2}
+{'dollar': 1, 'yen': 2}
+{'dollar': 2, 'yen': 2}
+{'dollar': 4, 'yen': 4}
+{'dollar': 2, 'yen': 1}
+{'dollar': 24, 'yen': 10}
+{'dollar': 5, 'yen': 1}
+{'dollar': 2, 'yen': 1}
+{'dollar': 2, 'yen': 1}
+{'dollar': 2, 'yen': 2}
+{'dollar': 1, 'yen': 1}
+{'dollar': 6, 'yen': 4}
+{'dollar': 17, 'yen': 3}
+{'dollar': 3, 'yen': 1}
+{'dollar': 25, 'yen': 10}
+{'dollar': 6, 'yen': 5}
+{'dollar': 17, 'yen': 3}
+{'dollar': 8, 'yen': 8}
+{'dollar': 16, 'yen': 4}
+{'dollar': 1, 'yen': 1}
+{'dollar': 8, 'yen': 8}
+{'dollar': 1, 'yen': 4}
+{'dollar': 2, 'yen': 1}
+{'dollar': 8, 'yen': 3}
+{'dollar': 1, 'yen': 4}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 3}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 2}
+{'yen': 3}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 2}
+{'dollar': 4}
+{'dollar': 2}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 7}
+{'dollar': 2}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 4}
+{'yen': 22}
+{'yen': 3}
+{'yen': 8}
+{'dollar': 1}
+{'dollar': 3}
+{'dollar': 2}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 2}
+{'yen': 3}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'yen': 2}
+{'yen': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 3}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'yen': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 2}
+{'yen': 3}
+{'dollar': 2}
+{'dollar': 5}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 5}
+{'dollar': 1}
+{'dollar': 5}
+{'dollar': 1}
+{'yen': 2}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 4}
+{'yen': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'yen': 2}
+{'dollar': 1}
+{'dollar': 7}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 3}
+{'dollar': 4}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'yen': 3}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 5}
+{'dollar': 1}
+{'dollar': 3}
+{'yen': 1}
+{'yen': 2}
+{'yen': 2}
+{'dollar': 3}
+{'dollar': 4}
+{'dollar': 4}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 3}
+{'dollar': 2}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 1}
+{'yen': 5}
+{'dollar': 4}
+{'yen': 2}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 7}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 6}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 3}
+{'dollar': 4}
+{'dollar': 6}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 4}
+{'yen': 1}
+{'yen': 1}
+{'dollar': 1}
+{'yen': 2}
+{'yen': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'yen': 2}
+{'dollar': 7}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 3}
+{'dollar': 1}
+{'yen': 1}
+{'dollar': 4}
+{'yen': 1}
+{'dollar': 1}
+{'dollar': 6}
+{'dollar': 6}
+{'dollar': 3}
+{'dollar': 1}
+{'yen': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 2}
+{'yen': 2}
+{'yen': 3}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 4}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'yen': 1}
+{'yen': 7}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 3}
+{'yen': 1}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 2}
+{'yen': 2}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 6}
+{'dollar': 1}
+{'dollar': 3}
+{'dollar': 1}
+{'yen': 5}
+{'dollar': 1}
+{'yen': 2}
+{'dollar': 1}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 6}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'yen': 1}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'yen': 1}
+{'dollar': 6}
+{'dollar': 2}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 4}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 5}
+{'dollar': 1}
+{'dollar': 3}
+{'yen': 2}
+{'dollar': 1}
+{'dollar': 4}
+{'dollar': 5}
+{'yen': 1}
+{'dollar': 1}
+{'yen': 4}
+{'yen': 6}
+{'dollar': 1}
+{'dollar': 2}
+{'yen': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'yen': 2}
+{'dollar': 2}
+{'yen': 1}
+{'dollar': 1}
+{'yen': 1}
+{'yen': 5}
+{'yen': 2}
+{'yen': 1}
+{'dollar': 1}
+{'yen': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'yen': 2}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 4}
+{'dollar': 1}
+{'yen': 3}
+{'yen': 2}
+{'dollar': 1}
+{'dollar': 6}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 2}
+{'yen': 1}
+{'dollar': 2}
+{'dollar': 3}
+{'yen': 2}
+{'dollar': 4}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 2}
+{'yen': 2}
+{'dollar': 2}
+{'dollar': 1}
+{'yen': 3}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 4}
+{'dollar': 1}
+{'yen': 1}
+{'dollar': 4}
+{'dollar': 1}
+{'yen': 4}
+{'dollar': 3}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 3}
+{'dollar': 4}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 1}
+{'yen': 3}
+{'dollar': 2}
+{'yen': 1}
+{'dollar': 3}
+{'dollar': 1}
+{'yen': 1}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 3}
+{'yen': 3}
+{'dollar': 1}
+{'dollar': 5}
+{'dollar': 2}
+{'yen': 5}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 3}
+{'yen': 2}
+{'dollar': 3}
+{'dollar': 1}
+{'yen': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'yen': 3}
+{'yen': 3}
+{'dollar': 4}
+{'dollar': 1}
+{'dollar': 3}
+{'dollar': 6}
+{'dollar': 2}
+{'dollar': 2}
+{'yen': 3}
+{'yen': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 4}
+{'dollar': 1}
+{'dollar': 1}
+{'yen': 5}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 3}
+{'yen': 6}
+{'dollar': 2}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 5}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 2}
+{'dollar': 3}
+{'dollar': 3}
+{'dollar': 5}
+{'dollar': 1}
+{'dollar': 1}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 6}
+{'dollar': 1}
+{'yen': 1}
+{'dollar': 3}
+{'dollar': 1}
+{'dollar': 5}

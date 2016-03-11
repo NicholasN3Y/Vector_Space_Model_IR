@@ -5,6 +5,10 @@ import getopt
 import os
 import cPickle as pickle
 import string
+import math
+
+NUM_RESULTS_TO_SHOW = 10
+NUM_CANDIDATE_TO_CONSIDER = 25
 
 def loadDictionary(filename):
         print "reading In Dictionary"
@@ -23,24 +27,51 @@ def preprocess(line):
                 termified_query.append(str((stemmer.stem(term.lower()))).strip(string.punctuation))
         return termified_query
 
+'''
+docs: refers to list of docId sorted by number of query terms that appear in it
+docDict: dictionary {doc:{query terms : count in doc}}\
+querydict {term: count in query list}
+'''
+def computeRank(docs, docDict, queryDict):
+        docs = docs[0:NUM_CANDIDATE_TO_CONSIDER]
+        for document in docs:
+                querydict_doc = docDict[document]
+                count = querydict_doc.values()
+                normalizedInDoc = dict()
+                denom = 0
+                for i in count:
+                        denom = denom + math.pow(i,2)
+                        denom = math.sqrt(denom)
+                for term, count in querydict_doc.items():
+                        #cosine normalize query term in doc
+                        normalizedInDoc[term] = (math.log(count, 10) + 1) / denom
+                print repr(normalizedInDoc)
+        
+        #12.35am Saturday
+                #cosine normalize query weight in document
+                 
+
+        
+
+
 def evalQuery(querytermlist, dictionary, postingsfile, outputfile):
         #querytermlist is tokenized query terms
         #convert it to a dictionary to enable query term count
-        #querytermdict: key is term, value is count in the query list
+        #querytermdict{term: count in query list}
         querytermdict = dict()
         for i in range(0, len(querytermlist)):
                 querytermdict.setdefault(querytermlist[i], 0)
                 querytermdict[querytermlist[i]] += 1
-
         #docsWithQuertTerms: { Doc: (dict of query terms : count)}
         docsWithQueryTerms = getDocWithQueryTerms(querytermdict, dictionary, postingsfile)
-        #--------12.20pm Thursday
-        print repr(docsWithQueryTerms)
-
+        candidateDocs = [ k  for k in sorted(docsWithQueryTerms, key=lambda k: len(docsWithQueryTerms[k]), reverse=True)]
+        computeRank(candidateDocs, docsWithQueryTerms, querytermdict);
         
 
-        
-        
+
+        #for i in candidateDocs:
+        #        print i, repr(docsWithQueryTerms[i])
+
         return ["dummy"]
 
 def getDocWithQueryTerms(queryterms, dictionary, posting):
