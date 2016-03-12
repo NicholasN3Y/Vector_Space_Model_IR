@@ -42,16 +42,19 @@ def idf(dictionary, qterm):
 docs: refers to list of docId sorted by number of query terms that appear in it
 docDict: dictionary {doc:{query terms : count in doc}}
 querydict {term: count in query list}
-'''
-                        
+'''                  
 def computeRank(dictionary, docs, docDict, queryDict):
         q = normalize_q_vector(dictionary,queryDict)
         dict_d = normalize_d_vector(docs,docDict)
-
-        
-        print q
-        print dict_d
-       
+        rankscores = dict()
+        for d, vect in dict_d.items():
+                score = 0
+                for term, wt in vect.items():
+                        score += q[term] * wt
+                rankscores.setdefault(d, score)
+        return rankscores
+        #print q
+        #print dict_d
 
 #returns dictionary of normalized vector d
 def normalize_d_vector(docs, docDict):
@@ -69,8 +72,6 @@ def normalize_d_vector(docs, docDict):
                         normalizedInDoc.setdefault(document, dict())
                         normalizedInDoc[document].setdefault(term, (logtf(count) / denom))
         return normalizedInDoc
-        
-        #12.35am Saturday
 
 #retuns normalized tf-idf vector q              
 def normalize_q_vector(dictionary, queryDict):
@@ -87,7 +88,6 @@ def normalize_q_vector(dictionary, queryDict):
                 normalizedInQuery.setdefault(term, (wt / denom))
         return normalizedInQuery
 
-
 def evalQuery(querytermlist, dictionary, postingsfile, outputfile):
         #querytermlist is tokenized query terms
         #convert it to a dictionary to enable query term count
@@ -99,14 +99,14 @@ def evalQuery(querytermlist, dictionary, postingsfile, outputfile):
         #docsWithQuertTerms: { Doc: (dict of query terms : count)}
         docsWithQueryTerms = getDocWithQueryTerms(querytermdict, dictionary, postingsfile)
         candidateDocs = [ k  for k in sorted(docsWithQueryTerms, key=lambda k: len(docsWithQueryTerms[k]), reverse=True)]
-        computeRank(dictionary, candidateDocs, docsWithQueryTerms, querytermdict);
-        
-
-
+        rankedScore = computeRank(dictionary, candidateDocs, docsWithQueryTerms, querytermdict);
+        listOfMostRelevant = list()
+        listOfMostRelevant = sorted(rankedScore, key=lambda k: (rankedScore[k], -k), reverse=True)
+        listOfMostRelevant = listOfMostRelevant[0:10]
         #for i in candidateDocs:
         #        print i, repr(docsWithQueryTerms[i])
-
-        return ["dummy"]
+        #print "listing:", listOfMostRelevant
+        return listOfMostRelevant
 
 def getDocWithQueryTerms(queryterms, dictionary, posting):
         resultDict = dict()
@@ -119,15 +119,13 @@ def getDocWithQueryTerms(queryterms, dictionary, posting):
                         categorizeQueryTermByDoc(term, termPostingList, resultDict)
         return resultDict
                 
-        
 def categorizeQueryTermByDoc(term, postings, dictionary):
         for pair in postings:
                 document = pair[0]
                 termcount = pair[1]
                 dictionary.setdefault(document, dict())
                 dictionary[document][term] = termcount
-                
-
+        
 def evaluateQueries(dictionary, posting_filename, queries_filename, output_filename):
 	outputfile = open(output_filename, 'w')
 	postingsfile = open(posting_filename, 'rb')
@@ -152,9 +150,10 @@ def getDataFromPostings(position, postingsfile):
 	return pickle.load(postingsfile)
 			
 def write_result(resultlist, outputfile):
+        print "writing result"
 	resultstring = ""
 	for item in resultlist:
-		resultstring+=(str(item[0])+" ")
+		resultstring+=(str(item)+" ")
 	resultstring = resultstring[0:len(resultstring)-1]
 	outputfile.write(resultstring+"\n")
 		 				
