@@ -45,7 +45,7 @@ querydict {term: count in query list}
 '''                  
 def computeRank(dictionary, docs, docDict, queryDict):
         q = normalize_q_vector(dictionary,queryDict)
-        dict_d = normalize_d_vector(docs,docDict)
+        dict_d = dict_normalize_d_vector(docs,docDict)
         rankscores = dict()
         for d, vect in dict_d.items():
                 score = 0
@@ -57,7 +57,7 @@ def computeRank(dictionary, docs, docDict, queryDict):
         #print dict_d
 
 #returns dictionary of normalized vector d
-def normalize_d_vector(docs, docDict):
+def dict_normalize_d_vector(docs, docDict):
         docs = docs[0:NUM_CANDIDATE_TO_CONSIDER]
         normalizedInDoc = dict()
         for document in docs:
@@ -98,15 +98,17 @@ def evalQuery(querytermlist, dictionary, postingsfile, outputfile):
                 querytermdict[querytermlist[i]] += 1
         #docsWithQuertTerms: { Doc: (dict of query terms : count)}
         docsWithQueryTerms = getDocWithQueryTerms(querytermdict, dictionary, postingsfile)
+        if len(docsWithQueryTerms) == 0:
+                return list()
         candidateDocs = [ k  for k in sorted(docsWithQueryTerms, key=lambda k: len(docsWithQueryTerms[k]), reverse=True)]
         rankedScore = computeRank(dictionary, candidateDocs, docsWithQueryTerms, querytermdict);
-        listOfMostRelevant = list()
-        listOfMostRelevant = sorted(rankedScore, key=lambda k: (rankedScore[k], -k), reverse=True)
-        listOfMostRelevant = listOfMostRelevant[0:10]
+        sortedRanking = list()
+        sortedRanking = sorted(rankedScore, key=lambda k: (rankedScore[k], -k), reverse=True)
+        sortedRanking = sortedRanking[0:NUM_RESULTS_TO_SHOW]
         #for i in candidateDocs:
         #        print i, repr(docsWithQueryTerms[i])
-        #print "listing:", listOfMostRelevant
-        return listOfMostRelevant
+        #print "listing:", sortedRanking
+        return sortedRanking
 
 def getDocWithQueryTerms(queryterms, dictionary, posting):
         resultDict = dict()
