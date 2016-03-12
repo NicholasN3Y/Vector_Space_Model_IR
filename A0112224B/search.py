@@ -27,31 +27,65 @@ def preprocess(line):
                 termified_query.append(str((stemmer.stem(term.lower()))).strip(string.punctuation))
         return termified_query
 
+def logtf(count):
+        return math.log(count, 10) + 1
+
+def idf(dictionary, qterm):
+        #print "doccount", dictionary["LIST_OF_DOC"][0]
+        if (dictionary.get(qterm) != None):
+                #print "df", dictionary[qterm][0]
+                return math.log(dictionary["LIST_OF_DOC"][0]/ dictionary[qterm][0])
+        else:
+                #print "df", "0"
+                return 0
 '''
 docs: refers to list of docId sorted by number of query terms that appear in it
-docDict: dictionary {doc:{query terms : count in doc}}\
+docDict: dictionary {doc:{query terms : count in doc}}
 querydict {term: count in query list}
 '''
-def computeRank(docs, docDict, queryDict):
+                        
+def computeRank(dictionary, docs, docDict, queryDict):
+        q = normalize_q_vector(dictionary,queryDict)
+        dict_d = normalize_d_vector(docs,docDict)
+
+        
+        print q
+        print dict_d
+       
+
+#returns dictionary of normalized vector d
+def normalize_d_vector(docs, docDict):
         docs = docs[0:NUM_CANDIDATE_TO_CONSIDER]
+        normalizedInDoc = dict()
         for document in docs:
                 querydict_doc = docDict[document]
                 count = querydict_doc.values()
-                normalizedInDoc = dict()
                 denom = 0
                 for i in count:
                         denom = denom + math.pow(i,2)
                         denom = math.sqrt(denom)
                 for term, count in querydict_doc.items():
                         #cosine normalize query term in doc
-                        normalizedInDoc[term] = (math.log(count, 10) + 1) / denom
-                print repr(normalizedInDoc)
+                        normalizedInDoc.setdefault(document, dict())
+                        normalizedInDoc[document].setdefault(term, (logtf(count) / denom))
+        return normalizedInDoc
         
         #12.35am Saturday
-                #cosine normalize query weight in document
-                 
 
-        
+#retuns normalized tf-idf vector q              
+def normalize_q_vector(dictionary, queryDict):
+        print "normalizing query terms"
+        q_tf_idf = dict()
+        normalizedInQuery = dict()
+        for qterm, count in queryDict.items():
+               q_tf_idf.setdefault(qterm, logtf(count) * idf(dictionary, qterm))
+               denom = 0
+        for i in q_tf_idf.values():
+                denom = denom + math.pow(i,2)
+                denom = math.sqrt(denom)
+        for term, wt in q_tf_idf.items():
+                normalizedInQuery.setdefault(term, (wt / denom))
+        return normalizedInQuery
 
 
 def evalQuery(querytermlist, dictionary, postingsfile, outputfile):
@@ -65,7 +99,7 @@ def evalQuery(querytermlist, dictionary, postingsfile, outputfile):
         #docsWithQuertTerms: { Doc: (dict of query terms : count)}
         docsWithQueryTerms = getDocWithQueryTerms(querytermdict, dictionary, postingsfile)
         candidateDocs = [ k  for k in sorted(docsWithQueryTerms, key=lambda k: len(docsWithQueryTerms[k]), reverse=True)]
-        computeRank(candidateDocs, docsWithQueryTerms, querytermdict);
+        computeRank(dictionary, candidateDocs, docsWithQueryTerms, querytermdict);
         
 
 
