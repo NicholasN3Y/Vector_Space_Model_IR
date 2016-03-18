@@ -8,10 +8,12 @@ import string
 import math
 
 NUM_RESULTS_TO_SHOW = 10
-NUM_CANDIDATE_TO_CONSIDER = 100
+NUM_CANDIDATE_TO_CONSIDER = 200
+#placeholder for list of documents, to be filled in afterwards
+dictOfDoc=dict()
 
 def loadDictionary(filename):
-        print "reading In Dictionary"
+        #print "reading In Dictionary"
 	dictFile = open(filename, 'r')
 	term_count_pos = pickle.load(dictFile)
 	dictFile.close()
@@ -34,7 +36,8 @@ def idf(dictionary, qterm):
         #print "doccount", dictionary["LIST_OF_DOC"][0]
         if (dictionary.get(qterm) != None):
                 #print "df", dictionary[qterm][0]
-                return math.log(dictionary["LIST_OF_DOC"][0]/ dictionary[qterm][0])
+                #return math.log(dictionary["LIST_OF_DOC"][0]/ dictionary[qterm][0])
+                return math.log(dictionary["LIST_OF_DOC"][0])- math.log(dictionary[qterm][0])
         else:
                 #print "df", "0"
                 return 0
@@ -51,6 +54,8 @@ def computeRank(dictionary, docs, docDict, queryDict, postingsfile):
                 score = 0
                 for term, wt in vect.items():
                         score += q[term] * wt
+                #revised: normalization delayed till done here for efficiency
+                score = score / (dictOfDoc[d][1] * q["_DENOM"])
                 rankscores.setdefault(d, score)
         return rankscores
         #print q
@@ -63,7 +68,6 @@ def dict_normalize_d_vector(dictionary, docs, docDict, postingsfile):
         for document in docs:
                 querydict_doc = docDict[document]
                 count = querydict_doc.values()
-                dictOfDoc = getDataFromPostings(dictionary['LIST_OF_DOC'][1], postingsfile)
                 '''
                 for i in count:
                         denom = denom + math.pow(i,2)
@@ -72,12 +76,13 @@ def dict_normalize_d_vector(dictionary, docs, docDict, postingsfile):
                 for term, count in querydict_doc.items():
                         #cosine normalize query term in doc
                         normalizedInDoc.setdefault(document, dict())
-                        normalizedInDoc[document].setdefault(term, (logtf(count) / dictOfDoc[document][1]))
+                        #normalizedInDoc[document].setdefault(term, (logtf(count) / dictOfDoc[document][1]))
+                        normalizedInDoc[document].setdefault(term, logtf(count))
         return normalizedInDoc
 
 #retuns normalized tf-idf vector q              
 def normalize_q_vector(dictionary, queryDict):
-        print "normalizing query terms"
+        #print "normalizing query terms"
         q_tf_idf = dict()
         normalizedInQuery = dict()
         for qterm, count in queryDict.items():
@@ -86,8 +91,10 @@ def normalize_q_vector(dictionary, queryDict):
         for i in q_tf_idf.values():
                 denom = denom + math.pow(i,2)
                 denom = math.sqrt(denom)
+                normalizedInQuery.setdefault("_DENOM", denom)
         for term, wt in q_tf_idf.items():
-                normalizedInQuery.setdefault(term, (wt / denom))
+                #normalizedInQuery.setdefault(term, (wt / denom))
+                normalizedInQuery.setdefault(term, wt)
         return normalizedInQuery
 
 def evalQuery(querytermlist, dictionary, postingsfile, outputfile):
@@ -107,9 +114,9 @@ def evalQuery(querytermlist, dictionary, postingsfile, outputfile):
         sortedRanking = list()
         sortedRanking = sorted(rankedScore, key=lambda k: (rankedScore[k], -k), reverse=True)
         sortedRanking = sortedRanking[0:NUM_RESULTS_TO_SHOW]
-        for i in sortedRanking:
-                print i, rankedScore[i],
-        print "next query"
+        #for i in sortedRanking:
+        #       print i, rankedScore[i],
+        #print "next query"
         return sortedRanking
 
 def getDocWithQueryTerms(queryterms, dictionary, posting):
@@ -135,7 +142,7 @@ def evaluateQueries(dictionary, posting_filename, queries_filename, output_filen
 	postingsfile = open(posting_filename, 'rb')
 	with open(queries_filename, 'r') as queries:
 		for query in queries:
-                        print "reading query"
+                        #print "reading query"
                         query = preprocess(query)
                         assert (type(query) is list)
 			try:
@@ -154,7 +161,7 @@ def getDataFromPostings(position, postingsfile):
 	return pickle.load(postingsfile)
 			
 def write_result(resultlist, outputfile):
-        print "writing result"
+        #print "writing result"
 	resultstring = ""
 	for item in resultlist:
 		resultstring+=(str(item)+" ")
@@ -162,29 +169,34 @@ def write_result(resultlist, outputfile):
 	outputfile.write(resultstring+"\n")
 		 				
 def usage():
-    print "usage: " + sys.argv[0] + " -d dictionary-file -p postings-file -q file-of-queries -o output-file-of-results"
+        print "usage: " + sys.argv[0] + " -d dictionary-file -p postings-file -q file-of-queries -o output-file-of-results"
 	
 dictionary_file_d = postings_file_p = queries_file_q = output_file_r = None
 try:
-    opts, args = getopt.getopt(sys.argv[1:], 'd:p:q:o:')
+        opts, args = getopt.getopt(sys.argv[1:], 'd:p:q:o:k:')
 except getopt.GetoptError, err:
-    usage()
-    sys.exit(2)
+        usage()
+        sys.exit(2)
 for o, a in opts:
-    if o == '-d':
-        dictionary_file_d = a
-    elif o == '-p':
-        postings_file_p = a
-    elif o == '-q':
-        queries_file_q = a
-    elif o == '-o':
-        output_file_r = a	
-    else:
-        assert False, "unhandled option"
+        if o == '-d':
+                dictionary_file_d = a
+        elif o == '-p':
+                postings_file_p = a
+        elif o == '-q':
+                queries_file_q = a
+        elif o == '-o':
+                output_file_r = a
+        elif o == '-k':
+                NUM_CANDIDATE_TO_CONSIDER = eval(a)
+        else:
+                assert False, "unhandled option"
 if dictionary_file_d == None or postings_file_p == None or queries_file_q == None or output_file_r == None:
-    usage()
-    sys.exit(2)
-	
+        usage()
+        sys.exit(2)
+
+print "top-k",NUM_CANDIDATE_TO_CONSIDER
 termDictionary = loadDictionary(dictionary_file_d)
+with open(postings_file_p, "r") as pf:
+        dictOfDoc = getDataFromPostings(termDictionary['LIST_OF_DOC'][1], pf)
 evaluateQueries(termDictionary, postings_file_p, queries_file_q, output_file_r)
 

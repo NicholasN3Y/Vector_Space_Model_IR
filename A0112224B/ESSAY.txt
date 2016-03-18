@@ -1,47 +1,55 @@
-1.You will observe that a large portion of the terms in the dictionary are numbers. 
-  However, we normally do not use numbers as query terms to search. Do you think it is a 
-  good idea to remove these number entries from the dictionary and the postings lists? 
-  Can you propose methods to normalize these numbers? How many percentage of reduction in 
-  disk storage do you observe after removing/normalizing these numbers?
+1. In this assignment, we didn't ask you to support phrasal queries, which is a feature that is typically supported in web search engines. 
+   Describe how you would support phrasal search in conjunction with the VSM model. A sketch of the algorithm is sufficient. 
+   
+   Extending from the current algorithm which obtains the candidate (possible) documents which contains any of the terms in the query, 
+   we further filter this list to have documents where the postion of the terms matches the phrasal query, giving them higher weightage.
+   Hence, they would appear higher in the rank.
 
-  group of absulte numbers such as event dates and financial reporting are important entries 
-  with regards to a document. Other instances are of less importance. Hence, removing these number
-  entries without a trace from the dictionary and postings list is not beneficial. I would suggest however,
-  to normalize the numbers, perhaps by grouping ranges of numbers into a single postings list based on semantics.
-  
-  Without removing these numbers, the dictionary file produced is 1,345,383 bytes.
-  Removing them yields a dictionary file of 655,750 bytes, which is significantly smaller. This is expected due to the
-  infinite possible representation of numbers. Removing them would hence reduce the amount of the dictionary file.
+   The indexing step would need to record the position of the terms in the doument, such that such comparison of the positions can be done.
+   term : docid <position 1, position 2..>
 
-  As for the postings file, the ratio reduce in size to 10,076,160 to 7,168,000 is not that great as the posting list size for each number representation 
-  is small. 
+   Then in the search steps, from the candidate documents, we can compare the postion of the query terms by transposing the dictionary.
+   docid : term <postion 1, position2, ..>, term2<positon 1, position 2..>
 
-
-2.What do you think will happen if we remove stop words from the dictionary and postings file? 
-  How does it affect the searching phase?
-
-  stops words will greatly reduce the size of the postings file as opposed to the dictionary file.
-  The vocabulary size of stop words are small relative to the total vocabulary, 
-  where as the occurance of stop words in various documents are guaranteed to be of high probabiliy, 
-  which is reflective of the high document count. 
-
-  searching would be be faster as we deal with a smaller vocabulary size and a relatively smalled postings file.
-  queries can be better trimmed to obtain smarter results. as stop words which hold no meaning are excluded.
+   Similarly, We could break down the phrasal queries into biwords, such that the ordering of the terms are taken into account. 
+   The dimensions in the vector space model will also be changed to represent biwords instead of just single terms, hence, the semantics and
+   structure of the phrase can be retained in the documents when rating. Documents which has more matching of biwords with the query will hence
+   be ranked higher. Matching biwords anre given more weight than single term.
 
 
-3.The NLTK tokenizer may not correctly tokenize all terms. What do you observe from the resulting terms 
-  produced by sent_tokenize() and word_tokenize()? Can you propose rules to further refine these results?
+2. Describe how your search engine reacts to long documents and long queries as compared to short documents and queries. 
+
+   We implemented lnc.ltc for this assignment, hence, the idf for the term in the document are not considered. 
+   stop words will have the same informativeness (which is the reason we do idf) as normal terms. The weight of terms
+   that occur very frequently will and the weight of the terms that occur rarely will remain onesided, as idf is not used to
+   diminish the differences. 
+
+   Long documents will naturally have more stop words. thus the weightage of the rare terms in the document will evidently have
+   lower weightage. resulting in higher score awarded to the stop words and far less for the rare terms. which would not represent 
+   the relevancy of the document as accurate as ltc. However, when the document is short, lnc is sufficient to provide a good ranking of relevancy.
+
+   as for queries, as idf : log (N/df) is calculated for the query terms, the relevancy of the term in the query is considered and better represented
+   As such, longer queries will be able to produce better and more accurate results with regards to relevancy
+
+   Is the normalization you use sufficient to address the problems (see Section 6.4.4 for a hint)? 
+   Yes. normalization helps by dampending the effects of weitage on the term distribution
+
+   In your judgement, is the ltc.lnc scheme (n.b., not the ranking scheme you were asked to implement) sufficient for 
+   retrieving documents from the Reuters-21578 collection?
 	
-  Sentences are seperated based on punctuations such as '?'  '!' and '.' 
-  Words ending with 's are converted seperate the 's from the word
-  beginning quotes(") placed on the begining of the word is not seperated from the word, whereas endquote 
-  are seperated from the word.
-  Hyphenated words are not seperated. 
-
-  to tokenize better, I suggest to seperate hyphenated words, which can lead to a better and more accurate
-  response of the query. As if stayed hyphenated, it would be considered as a seperate term. Searching words that might be
-  a contituent of hyphened words, would not include it the result.
+   Given that the document size is comparatively small, it is sufficient. for retrieving documents.
+   For collections of huge document size however, ltc.lnc would be over zealous, as computationally
+   it would more expensive to obtain the ltc for huge amounts of documents.
 
 
+3. Do you think zone or field parametric indices would be useful for practical search in the Reuters collection? 
+Note: the Reuters collection does have metadata for each article but the quality of the metadata is not uniform, 
+nor are the metadata classifications uniformly applied (some documents have it, some don't). 
+Hint: for the next Homework #4, we will be using field metadata, so if you want to base Homework #4 on your Homework #3, 
+you're welcomed to start support of this early (although no extra credit will be given if it's right).
 
+Definitely. With existence of zones, even if not all the document have them,
+we can use the information as a weak indication of whether the document is relevant based on the queries
 
+Information encapsulated especially in the first 10 words ofe each documents could potentially make good zones, 
+which can help seperate various categories of information. such as the topic of the article and the location.

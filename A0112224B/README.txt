@@ -2,19 +2,21 @@ This is the README file for A0112224B's submission
 contactable at a0112224@u.nus.edu
 
 == General Notes about this assignment ==
-
-
-
-
-
-
-
+To make the dictionary more precise and accurate:
 punctuations that appear before or after a term are pruned. 
-terms that have '/' are split into two terms
+terms concatenated with '/' are split into seperate terms
+special character "&lt;" is ignored.
 
-Place your comments or requests here for Min to read.  Discuss your
-architecture or experiments in general.  A paragraph or two is usually
-sufficient.
+Indexing is the same as in Homework two, with the addition that the postings list 
+indicate the number of times the terms appear in a specific document
+
+The vector model space is implemented using lnc.ltc SMART NOTATION
+
+From the postings list, we get the postings list of the terms that are queried.
+Then have a list of candidate documents and get the top-K for which we will compute the ranking score
+the program can be run with an additional argument -k [number of documents to consider] 
+by default, it is set to be 200.
+We then output the top 10 in the rank, whereby docID with same score are output in ascending order. 
 
 
 == Files included with this submission ==
@@ -24,6 +26,8 @@ description of each file.  Make sure your submission's files are named
 and formatted correctly.
 
 index.py
+printpost.py - prints out the term dictionary together with postings list
+printed.txt - result of printpost.py
 ESSAY.txt
 search.py
 queries.txt
