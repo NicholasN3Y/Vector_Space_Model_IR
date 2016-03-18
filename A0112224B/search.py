@@ -8,7 +8,7 @@ import string
 import math
 
 NUM_RESULTS_TO_SHOW = 10
-NUM_CANDIDATE_TO_CONSIDER = 25
+NUM_CANDIDATE_TO_CONSIDER = 100
 
 def loadDictionary(filename):
         print "reading In Dictionary"
@@ -43,9 +43,9 @@ docs: refers to list of docId sorted by number of query terms that appear in it
 docDict: dictionary {doc:{query terms : count in doc}}
 querydict {term: count in query list}
 '''                  
-def computeRank(dictionary, docs, docDict, queryDict):
+def computeRank(dictionary, docs, docDict, queryDict, postingsfile):
         q = normalize_q_vector(dictionary,queryDict)
-        dict_d = dict_normalize_d_vector(docs,docDict)
+        dict_d = dict_normalize_d_vector(dictionary, docs, docDict, postingsfile)
         rankscores = dict()
         for d, vect in dict_d.items():
                 score = 0
@@ -57,20 +57,22 @@ def computeRank(dictionary, docs, docDict, queryDict):
         #print dict_d
 
 #returns dictionary of normalized vector d
-def dict_normalize_d_vector(docs, docDict):
+def dict_normalize_d_vector(dictionary, docs, docDict, postingsfile):
         docs = docs[0:NUM_CANDIDATE_TO_CONSIDER]
         normalizedInDoc = dict()
         for document in docs:
                 querydict_doc = docDict[document]
                 count = querydict_doc.values()
-                denom = 0
+                dictOfDoc = getDataFromPostings(dictionary['LIST_OF_DOC'][1], postingsfile)
+                '''
                 for i in count:
                         denom = denom + math.pow(i,2)
                         denom = math.sqrt(denom)
+                '''
                 for term, count in querydict_doc.items():
                         #cosine normalize query term in doc
                         normalizedInDoc.setdefault(document, dict())
-                        normalizedInDoc[document].setdefault(term, (logtf(count) / denom))
+                        normalizedInDoc[document].setdefault(term, (logtf(count) / dictOfDoc[document][1]))
         return normalizedInDoc
 
 #retuns normalized tf-idf vector q              
@@ -101,13 +103,13 @@ def evalQuery(querytermlist, dictionary, postingsfile, outputfile):
         if len(docsWithQueryTerms) == 0:
                 return list()
         candidateDocs = [ k  for k in sorted(docsWithQueryTerms, key=lambda k: len(docsWithQueryTerms[k]), reverse=True)]
-        rankedScore = computeRank(dictionary, candidateDocs, docsWithQueryTerms, querytermdict);
+        rankedScore = computeRank(dictionary, candidateDocs, docsWithQueryTerms, querytermdict, postingsfile);
         sortedRanking = list()
         sortedRanking = sorted(rankedScore, key=lambda k: (rankedScore[k], -k), reverse=True)
         sortedRanking = sortedRanking[0:NUM_RESULTS_TO_SHOW]
-        #for i in candidateDocs:
-        #        print i, repr(docsWithQueryTerms[i])
-        #print "listing:", sortedRanking
+        for i in sortedRanking:
+                print i, rankedScore[i],
+        print "next query"
         return sortedRanking
 
 def getDocWithQueryTerms(queryterms, dictionary, posting):

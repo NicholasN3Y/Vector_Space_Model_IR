@@ -30,14 +30,16 @@ def build_Index(directory) :
 			
 		#create new Porter stemmer
 		stemmer = nltk.PorterStemmer()
-		docSize = 0;	
+		docSize = 0;
+		docLength = 0;
+		docTerm = dict();
 		for sent in wordified_sent:
 			for term in sent:
                                 term = term.strip(string.punctuation)
                                 terms = term.split("/")
                                 for i in range(0, len(terms)):
                                         term = terms[i]
-                                        term = stemmer.stem(term.lower())
+                                        term = str(stemmer.stem(term.lower()))
                                         #remove prepending and appending punctuations from stemmed words
                                         if len(term) > 0 and term != "lt":
                                                 #it is already in the dictionary
@@ -50,9 +52,13 @@ def build_Index(directory) :
                                                 #it is not in the dictionary
                                                 else:
                                                         postinglist.append((docname,1))
+                                                assert type(term) is str
+                                                docTerm.setdefault(term, 0)
+                                                docTerm[term] += 1
                                                 docSize = docSize + 1
-		#add list of documents into dictionary
-		(index_dict['LIST_OF_DOC'])[docname] = docSize
+		#add Doc Length = sqrt(sum(i^2)) for i = weight of term in doc.
+                docLength = getDocLength(docTerm)
+		(index_dict['LIST_OF_DOC'])[docname] = (docSize, docLength)
 	
 	'''irrelevant skip pointers	
 	#add skip pointers
@@ -68,6 +74,11 @@ def build_Index(directory) :
 				postings[i] = (postings[i][0], postings[i][1], post_length - 1)
 	'''	
 	return index_dict
+
+def getDocLength(dictTerms):
+        #print "terms in this document", dictTerms;
+        termfreqs = [math.pow(i, 2) for i in dictTerms.values()]
+        return math.sqrt(sum(termfreqs))
 
 def pickle_Data(index_dict, dictionaryz, postingz):
 	#sort, count length and pickle them.
